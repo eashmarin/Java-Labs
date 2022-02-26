@@ -1,4 +1,4 @@
-package lab0;
+package lab1;
 
 import java.util.Vector;
 import java.util.regex.*;

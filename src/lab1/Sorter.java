@@ -1,4 +1,4 @@
-package lab0;
+package lab1;
 
 import java.util.Comparator;
 import java.util.TreeMap;

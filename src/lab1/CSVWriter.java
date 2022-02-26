@@ -1,4 +1,4 @@
-package lab0;
+package lab1;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -12,7 +12,6 @@ public class CSVWriter {
     private String fileName;
 
     public CSVWriter(Stat stat, String fileName) {
-        //this.data = new TreeMap<String, Integer>();
         this.data = stat.getData();
         this.wordsAmount = stat.getWordsAmount();
         this.fileName = fileName;

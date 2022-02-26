@@ -1,4 +1,4 @@
-package lab0;
+package lab1;
 
 import java.io.*;
 import java.util.*;
@@ -12,9 +12,9 @@ public class Stat {
 
     public Stat(String fileName) {
         this.fileName =  fileName;
-        buffer = new Vector<String>();
-        data = new TreeMap<String, Integer>();
-        //parser = new Parser();
+
+        buffer = new Vector<>();
+        data = new TreeMap<>();
 
         read();
 
@@ -29,7 +29,7 @@ public class Stat {
         reader = null;
         try {
             reader = new BufferedReader(new FileReader(fileName));
-            //dataInputStream = new DataInputStream(new FileInputStream("in.txt"));
+
             String currLine;
 
             while ((currLine = reader.readLine()) != null)
@@ -51,12 +51,12 @@ public class Stat {
     }
 
     private void transferToMap() {
-
         for (String key: buffer) {
-            if (data.get(key) == null)
-                data.put(key, 1);
-            else
+
+            if (data.containsKey(key))
                 data.put(key, data.get(key) + 1);
+            else
+                data.put(key, 1);
         }
     }
 
