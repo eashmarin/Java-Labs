@@ -1,0 +1,27 @@
+
+DEFINE p1 0.95
+DEFINE p2 0.97
+DEFINE p3 0.99
+
+DEFINE p4 0.2
+DEFINE p5 0.3
+DEFINE p6 0.5
+PUSH p1
+PUSH p4
+*
+PUSH p2
+PUSH p5
+*
++
+PUSH p3
+PUSH p6
+*
++
+pu 5
+PRINT
+
+#PUSH prop
+#+
+#PRINT
+#SQRT
+#PRINT
