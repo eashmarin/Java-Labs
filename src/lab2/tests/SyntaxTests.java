@@ -1,0 +1,50 @@
+package lab2.tests;
+
+import lab2.Calculator;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+
+public class SyntaxTests {
+    private ArrayList<String> inputData;
+    private Calculator calculator;
+
+    @BeforeMethod
+    private void init() {
+        inputData = new ArrayList<>();
+    }
+
+    @Test
+    public void spaceTest() throws Exception {
+        inputData.add("   ");
+        inputData.add("DEFINE Abc 3.4");
+        inputData.add("");
+        inputData.add("      ");
+        inputData.add("PUSH Abc");
+        inputData.add(" ");
+        inputData.add("SQRT");
+        inputData.add("PRINT");
+        inputData.add("POP");
+
+        calculator = new Calculator(inputData);
+        calculator.calculate();
+        Assert.assertEquals(calculator.getDataToPrint(), Math.sqrt(3.4));
+    }
+
+    @Test
+    public void commentTest() throws Exception {
+        inputData.add("DEFINE A 3.4");
+        inputData.add("PUSH A");
+        inputData.add("#DEFINE B 10");
+        inputData.add("#PUSH B 10");
+        inputData.add("SQRT");
+        inputData.add("PRINT");
+        inputData.add("POP");
+
+        calculator = new Calculator(inputData);
+        calculator.calculate();
+        Assert.assertEquals(calculator.getDataToPrint(), Math.sqrt(3.4));
+    }
+}
