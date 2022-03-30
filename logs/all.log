@@ -1,0 +1,167 @@
+2022-03-07 19:48:47,875 INFO main [main] INFO
+2022-03-07 19:54:02,811 INFO main [main] INFO
+2022-03-07 20:27:11,988 INFO main [main] INFO
+2022-03-07 20:32:26,336 INFO main [main] INFO
+2022-03-07 20:38:04,263 INFO main [main] A
+2022-03-07 20:42:56,030 INFO main [main] A
+2022-03-07 20:44:54,749 INFO main [main] A
+2022-03-07 20:45:00,292 INFO main [main] A
+2022-03-07 20:45:03,864 INFO main [main] A
+2022-03-07 20:46:02,102 INFO main [main] A
+2022-03-07 20:48:54,550 INFO main [main] Calculator is loading
+2022-03-07 21:00:06,382 INFO main [main] Loading Сalculator
+2022-03-07 21:00:06,393 INFO main [main] Parsing input data
+2022-03-07 21:00:06,402 INFO main [main] calculate() is executing
+2022-03-07 21:09:03,547 INFO main [main] Loading Сalculator
+2022-03-07 21:09:03,551 INFO main [main] Parsing input data
+2022-03-07 21:09:03,561 INFO main [main] calculate() is executing
+2022-03-07 21:09:11,060 INFO main [main] Loading Сalculator
+2022-03-07 21:09:11,063 INFO main [main] Parsing input data
+2022-03-07 21:09:11,073 INFO main [main] calculate() is executing
+2022-03-07 21:11:16,521 INFO main [main] Loading Сalculator
+2022-03-07 21:11:16,525 INFO main [main] Parsing input data
+2022-03-07 21:11:16,533 INFO main [main] calculate() is executing
+2022-03-07 21:11:45,064 INFO main [main] Loading Сalculator
+2022-03-07 21:11:45,067 INFO main [main] Parsing input data
+2022-03-07 21:11:45,077 INFO main [main] calculate() is executing
+2022-03-07 21:12:17,248 INFO main [main] Loading Сalculator
+2022-03-07 21:12:17,251 INFO main [main] Parsing input data
+2022-03-07 21:12:17,261 INFO main [main] calculate() is executing
+Loading Сalculator
+Parsing input data
+calculate() is executing
+[21:15:15] [main/INFO]: Loading Сalculator
+[21:15:15] [main/INFO]: Parsing input data
+[21:15:15] [main/INFO]: calculate() is executing
+[21:16:23] [main/INFO]: Loading Сalculator
+[21:16:23] [main/INFO]: Parsing input data
+[21:16:23] [main/INFO]: calculate() is executing
+[21:16:40] [main/INFO]: Loading Сalculator
+[21:16:40] [main/INFO]: Parsing input data
+[21:16:40] [main/INFO]: calculate() is executing
+[21:17:38] [main/INFO]: Loading Сalculator
+[21:17:38] [main/INFO]: Parsing input data
+[21:17:38] [main/INFO]: Calculating
+[21:17:58] [main/INFO]: Loading Сalculator
+[21:17:58] [main/INFO]: Parsing input data
+[21:17:58] [main/INFO]: Calculating
+[21:18:09] [main/INFO]: Loading Сalculator
+[21:18:09] [main/INFO]: Parsing input data
+[21:18:09] [main/INFO]: Calculating
+[21:18:16] [main/INFO]: Loading Сalculator
+[21:18:16] [main/INFO]: Parsing input data
+[21:18:16] [main/INFO]: Calculating
+[21:23:33] [main/INFO]: Loading Сalculator
+[21:23:33] [main/INFO]: Parsing input data
+[21:23:33] [main/INFO]: Calculating
+[21:24:54] [main/INFO]: Loading Сalculator
+[21:24:54] [main/INFO]: Parsing input data
+[21:24:54] [main/INFO]: Calculating
+[21:27:00] [main/INFO]: Loading Сalculator
+[21:27:00] [main/INFO]: Parsing input data
+[21:27:00] [main/INFO]: Calculating
+[21:33:00] [main/INFO]: Loading Сalculator
+[21:33:00] [main/INFO]: Parsing input data
+[21:33:00] [main/INFO]: Calculating
+[21:33:18] [main/INFO]: Loading Сalculator
+[21:33:18] [main/INFO]: Parsing input data
+[21:33:18] [main/INFO]: Calculating
+[21:33:41] [main/INFO]: Loading Сalculator
+[21:33:41] [main/INFO]: Parsing input data
+[21:33:41] [main/INFO]: Calculating
+[21:34:03] [main/INFO]: Loading Сalculator
+[21:34:03] [main/INFO]: Parsing input data
+[21:34:03] [main/INFO]: Calculating
+[21:34:18] [main/INFO]: Loading Сalculator
+[21:34:18] [main/INFO]: Parsing input data
+[21:34:18] [main/INFO]: Calculating
+[21:34:33] [main/INFO]: Loading Сalculator
+[21:34:33] [main/INFO]: Parsing input data
+[21:34:33] [main/INFO]: Calculating
+[21:35:18] [main/INFO]: Loading Сalculator
+[21:35:18] [main/INFO]: Parsing input data
+[21:35:18] [main/INFO]: Calculating
+[21:35:31] [main/INFO]: Loading Сalculator
+[21:35:31] [main/INFO]: Parsing input data
+[21:35:31] [main/INFO]: Calculating
+[21:38:55] [main/INFO]: Loading Сalculator
+[21:38:55] [main/INFO]: Parsing input data
+[21:38:55] [main/INFO]: Calculating
+[21:43:49] [main/INFO]: Loading Сalculator
+[21:43:49] [main/INFO]: Parsing input data
+[21:43:49] [main/INFO]: Calculating
+[21:52:44] [main/INFO]: Loading Сalculator
+[21:52:44] [main/INFO]: Parsing input data
+[21:52:44] [main/INFO]: Calculating
+[21:53:29] [main/INFO]: Loading Сalculator
+[21:53:29] [main/INFO]: Parsing input data
+[21:53:29] [main/INFO]: Calculating
+[21:53:52] [main/INFO]: Loading Сalculator
+[21:53:52] [main/INFO]: Parsing input data
+[21:53:52] [main/INFO]: Calculating
+[21:54:04] [main/INFO]: Loading Сalculator
+[21:54:04] [main/INFO]: Parsing input data
+[21:54:04] [main/INFO]: Calculating
+[22:04:30] [main/INFO]: Loading Сalculator
+[22:04:30] [main/INFO]: Parsing input data
+[22:04:30] [main/INFO]: Calculating
+[22:04:30] [main/INFO]: Define p1 0.95
+[22:04:30] [main/INFO]: Define p2 0.97
+[22:04:30] [main/INFO]: Define p3 0.99
+[22:04:30] [main/INFO]: Define p4 0.2
+[22:04:30] [main/INFO]: Define p5 0.3
+[22:04:30] [main/INFO]: Define p6 0.5
+[22:04:30] [main/INFO]: Push p1
+[22:04:30] [main/INFO]: Push p4
+[22:04:30] [main/INFO]: Multiply 
+[22:04:30] [main/INFO]: Push p2
+[22:04:30] [main/INFO]: Push p5
+[22:04:30] [main/INFO]: Multiply 
+[22:04:30] [main/INFO]: Plus 
+[22:04:30] [main/INFO]: Push p3
+[22:04:30] [main/INFO]: Push p6
+[22:04:30] [main/INFO]: Multiply 
+[22:04:30] [main/INFO]: Plus 
+[22:04:30] [main/INFO]: Print 
+[22:05:24] [main/INFO]: Loading Сalculator
+[22:05:24] [main/INFO]: Parsing input data
+[22:05:24] [main/INFO]: Calculating: 
+[22:05:24] [main/INFO]: Define p1 0.95
+[22:05:24] [main/INFO]: Define p2 0.97
+[22:05:24] [main/INFO]: Define p3 0.99
+[22:05:24] [main/INFO]: Define p4 0.2
+[22:05:24] [main/INFO]: Define p5 0.3
+[22:05:24] [main/INFO]: Define p6 0.5
+[22:05:24] [main/INFO]: Push p1
+[22:05:24] [main/INFO]: Push p4
+[22:05:24] [main/INFO]: Multiply 
+[22:05:24] [main/INFO]: Push p2
+[22:05:24] [main/INFO]: Push p5
+[22:05:24] [main/INFO]: Multiply 
+[22:05:24] [main/INFO]: Plus 
+[22:05:24] [main/INFO]: Push p3
+[22:05:24] [main/INFO]: Push p6
+[22:05:24] [main/INFO]: Multiply 
+[22:05:24] [main/INFO]: Plus 
+[22:05:24] [main/INFO]: Print 
+[22:07:36] [main/INFO]: Loading Сalculator
+[22:07:36] [main/INFO]: Parsing input data
+[22:07:36] [main/INFO]: Calculating: 
+[22:07:36] [main/INFO]: Define p1 0.95
+[22:07:36] [main/INFO]: Define p2 0.97
+[22:07:36] [main/INFO]: Define p3 0.99
+[22:07:36] [main/INFO]: Define p4 0.2
+[22:07:36] [main/INFO]: Define p5 0.3
+[22:07:36] [main/INFO]: Define p6 0.5
+[22:07:36] [main/INFO]: Push p1
+[22:07:36] [main/INFO]: Push p4
+[22:07:36] [main/INFO]: Multiply 
+[22:07:36] [main/INFO]: Push p2
+[22:07:36] [main/INFO]: Push p5
+[22:07:36] [main/INFO]: Multiply 
+[22:07:36] [main/INFO]: Plus 
+[22:07:36] [main/INFO]: Push p3
+[22:07:36] [main/INFO]: Push p6
+[22:07:36] [main/INFO]: Multiply 
+[22:07:36] [main/INFO]: Plus 
+[22:07:36] [main/INFO]: Print 
