@@ -47,4 +47,17 @@ public class SyntaxTests {
         calculator.calculate();
         Assert.assertEquals(calculator.getDataToPrint(), Math.sqrt(3.4));
     }
+
+    @Test
+    public void pushDoubleTest() throws Exception {
+        inputData.add("DEFINE some_num 34.6");
+        inputData.add("PUSH some_num");
+        inputData.add("PUSH 30.4");
+        inputData.add("-");
+        inputData.add("PRINT");
+
+        calculator = new Calculator(inputData);
+        calculator.calculate();
+        Assert.assertEquals(calculator.getDataToPrint(), 34.6 - 30.4);
+    }
 }

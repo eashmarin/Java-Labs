@@ -1,6 +1,7 @@
 package lab2.tests;
 
 import lab2.Calculator;
+import lab2.exceptions.ArgumentException;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;

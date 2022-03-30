@@ -27,7 +27,7 @@ public class Parser {
         if (lines == null || lines.isEmpty())
             throw new IllegalArgumentException("input is empty");
 
-        Pattern pattern = Pattern.compile("[a-zA-Z0-9+*/-[.]]+");
+        Pattern pattern = Pattern.compile("[a-zA-Z0-9+*/\\-\\_[.]]+");
 
         for (String line: lines) {
             if (line.length() == 0 || line.charAt(0) == '#')
