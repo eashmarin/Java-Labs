@@ -5,7 +5,7 @@
             <PatternLayout pattern="[%d{HH:mm:ss}] [%c/%level]: %msg%n"/>
         </Console>
 
-        <File name="all_logs_file" fileName="src/lab2/logs/latest.log">
+        <File name="all_logs_file" fileName="src/lab2/logs/latest.log" append="false">
             <PatternLayout>
                 <pattern>[%d{HH:mm:ss}] [%c/%level]: %msg%n</pattern>
             </PatternLayout>
