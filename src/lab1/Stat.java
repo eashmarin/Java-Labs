@@ -5,7 +5,6 @@ import java.util.*;
 
 public class Stat {
     private String fileName;
-    private BufferedReader reader;
     private Vector<String> buffer;
     private TreeMap<String, Integer> data;
     private int wordsAmount;
@@ -26,7 +25,7 @@ public class Stat {
     }
 
     private void read() {
-        reader = null;
+        BufferedReader reader = null;
         try {
             reader = new BufferedReader(new FileReader(fileName));
 
@@ -52,11 +51,7 @@ public class Stat {
 
     private void transferToMap() {
         for (String key: buffer) {
-
-            if (data.containsKey(key))
-                data.put(key, data.get(key) + 1);
-            else
-                data.put(key, 1);
+            data.merge(key, 1, (a, b) -> a + b);
         }
     }
 
