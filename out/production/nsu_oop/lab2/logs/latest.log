@@ -15870,3 +15870,415 @@
 [19:50:11] [Calculator/INFO]: Sqrt 
 [19:50:11] [Calculator/INFO]: Print 
 [19:50:11] [Calculator/INFO]: Pop 
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push z
+[19:52:23] [Calculator/INFO]: Push d
+[19:52:23] [Calculator/INFO]: Divide 
+[19:52:23] [Calculator/INFO]: Print 
+[19:52:23] [Calculator/INFO]: Pop 
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push a
+[19:52:23] [Calculator/INFO]: Push h
+[19:52:23] [Calculator/INFO]: Minus 
+[19:52:23] [Calculator/INFO]: Print 
+[19:52:23] [Calculator/INFO]: Pop 
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push k
+[19:52:23] [Calculator/INFO]: Push m
+[19:52:23] [Calculator/INFO]: Multiply 
+[19:52:23] [Calculator/INFO]: Print 
+[19:52:23] [Calculator/INFO]: Pop 
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push k
+[19:52:23] [Calculator/INFO]: Push m
+[19:52:23] [Calculator/INFO]: Plus 
+[19:52:23] [Calculator/INFO]: Print 
+[19:52:23] [Calculator/INFO]: Pop 
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push h
+[19:52:23] [Calculator/INFO]: Sqrt 
+[19:52:23] [Calculator/INFO]: Print 
+[19:52:23] [Calculator/INFO]: Pop 
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Define A 0
+[19:52:23] [Calculator/INFO]: Push a
+[19:52:23] [Calculator/INFO]: Push A
+[19:52:23] [Calculator/INFO]: Divide 
+[19:52:23] [Calculator/ERROR]: division by zero
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Multiply 
+[19:52:23] [Calculator/ERROR]: size of stack < 2, operation "*" can't be executed
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/ERROR]: invalid command - define
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Define var k
+[19:52:23] [Calculator/ERROR]: variable in operation "DEFINE" must be a number
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Define A
+[19:52:23] [Calculator/ERROR]: operation "DEFINE" must have 2 arguments
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push 
+[19:52:23] [Calculator/ERROR]: operation "PUSH" must have an argument
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push a
+[19:52:23] [Calculator/INFO]: Plus 
+[19:52:23] [Calculator/ERROR]: size of stack < 2, operation "+" can't be executed
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/ERROR]: input is empty
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define a 97
+[19:52:23] [Calculator/INFO]: Define b 98
+[19:52:23] [Calculator/INFO]: Define c 99
+[19:52:23] [Calculator/INFO]: Define d 100
+[19:52:23] [Calculator/INFO]: Define e 101
+[19:52:23] [Calculator/INFO]: Define f 102
+[19:52:23] [Calculator/INFO]: Define g 103
+[19:52:23] [Calculator/INFO]: Define h 104
+[19:52:23] [Calculator/INFO]: Define i 105
+[19:52:23] [Calculator/INFO]: Define j 106
+[19:52:23] [Calculator/INFO]: Define k 107
+[19:52:23] [Calculator/INFO]: Define l 108
+[19:52:23] [Calculator/INFO]: Define m 109
+[19:52:23] [Calculator/INFO]: Define n 110
+[19:52:23] [Calculator/INFO]: Define o 111
+[19:52:23] [Calculator/INFO]: Define p 112
+[19:52:23] [Calculator/INFO]: Define q 113
+[19:52:23] [Calculator/INFO]: Define r 114
+[19:52:23] [Calculator/INFO]: Define s 115
+[19:52:23] [Calculator/INFO]: Define t 116
+[19:52:23] [Calculator/INFO]: Define u 117
+[19:52:23] [Calculator/INFO]: Define v 118
+[19:52:23] [Calculator/INFO]: Define w 119
+[19:52:23] [Calculator/INFO]: Define x 120
+[19:52:23] [Calculator/INFO]: Define y 121
+[19:52:23] [Calculator/INFO]: Define z 122
+[19:52:23] [Calculator/INFO]: Push pp
+[19:52:23] [Calculator/ERROR]: Definition of "pp" is missed
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define A 3.4
+[19:52:23] [Calculator/INFO]: Push A
+[19:52:23] [Calculator/INFO]: Sqrt 
+[19:52:23] [Calculator/INFO]: Print 
+[19:52:23] [Calculator/INFO]: Pop 
+[19:52:23] [Calculator/INFO]: ========Loading Сalculator========
+[19:52:23] [Parser/INFO]: Parsing input data
+[19:52:23] [Calculator/INFO]: Calculating: 
+[19:52:23] [Calculator/INFO]: Define Abc 3.4
+[19:52:23] [Calculator/INFO]: Push Abc
+[19:52:23] [Calculator/INFO]: Sqrt 
+[19:52:23] [Calculator/INFO]: Print 
+[19:52:23] [Calculator/INFO]: Pop 
