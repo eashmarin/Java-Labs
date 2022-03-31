@@ -7,17 +7,25 @@ public class ConsoleView implements View{
     public static final String ANSI_BLUE = "\u001B[34m";
     public static final String ANSI_RED = "\u001B[31m";
 
+    int height;
+    int width;
+
+    public ConsoleView(int height, int width) {
+        this.height = height;
+        this.width = width;
+    }
+
     @Override
     public void update(Model model) {
         System.out.print("\n\n");
 
-        for (int i = 0; i < model.width; i++)
+        for (int i = 0; i < width; i++)
             System.out.print(ANSI_GREEN + i + "  " + ANSI_RESET);
         System.out.println();
 
         char symbol;
-        for (int i = 0; i < model.height; i++) {
-            for (int j = 0; j < model.width; j++) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
                 if (model.isRevealed(j, i)) {
                     if (model.isMine(j, i))
                         System.out.print(ANSI_RED);

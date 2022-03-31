@@ -21,7 +21,7 @@ public class ConsoleController implements Controller{
 
     @Override
     public void getInput() {
-        while (!gameOver) {
+        while (!model.isGameOver()) {
             Scanner scanner = new Scanner(System.in);
             x = scanner.nextInt();
             y = scanner.nextInt();
@@ -33,17 +33,20 @@ public class ConsoleController implements Controller{
                     model.print();              // TODO: DEBUG
                 }
 
-                if (model.isMine(x, y)) {
-                    gameOver = true;
-                    model.revealMines();
-                }
-                else
-                    model.reveal(x, y);
+                //if (model.isMine(x, y)) {
+                //    gameOver = true;
+                //    model.revealMines();
+                //}
+                //else
+                model.reveal(x, y);
             }
 
-            if (mode == 'R')
-                model.changeFlag(x, y);
-
+            if (mode == 'R') {
+               if (model.isFlag(x, y))
+                    model.removeFlag(x, y);
+                else
+                    model.setFlag(x, y);
+            }
             view.update(model);
         }
     }

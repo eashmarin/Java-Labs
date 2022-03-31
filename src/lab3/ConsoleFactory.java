@@ -2,8 +2,8 @@ package lab3;
 
 public class ConsoleFactory implements Factory{
     @Override
-    public View createView() {
-        return new ConsoleView();
+    public View createView(int height, int width) {
+        return new ConsoleView(height, width);
     }
 
     @Override

@@ -7,6 +7,9 @@ public class Model {
     boolean[][] revealedMap;
     boolean[][] flagMap;
     boolean isGenerated;
+    boolean gameOver;
+    int correctFlags;
+    int wrongFlags;
     int height;
     int width;
     int minesNum;
@@ -16,6 +19,9 @@ public class Model {
         height = Integer.parseInt(ConfigParser.getProperty("height"));
         minesNum = Integer.parseInt(ConfigParser.getProperty("mines_num"));
         isGenerated = false;
+        gameOver = false;
+        correctFlags = 0;
+        wrongFlags = 0;
         map = new char[height][width];
         revealedMap = new boolean[height][width];
         flagMap = new boolean[height][width];
@@ -70,6 +76,11 @@ public class Model {
 
     void reveal(int x, int y) {
 
+        if (isMine(x, y)) {
+            gameOver = true;
+            revealMines();
+        }
+
         if (!revealedMap[y][x] && !isFlag(x, y)) {
             revealedMap[y][x] = true;
             if (map[y][x] == '0') {
@@ -96,12 +107,32 @@ public class Model {
         }
     }
 
-    void changeFlag(int x, int y) {
-        flagMap[y][x] = !flagMap[y][x];
+    void setFlag(int x, int y) {
+        flagMap[y][x] = true;
+        if (isMine(x, y))
+            correctFlags++;
+        else
+            wrongFlags++;
+
+        gameOver = (correctFlags == minesNum && wrongFlags == 0);
+    }
+
+    void removeFlag(int x, int y) {
+        flagMap[y][x] = false;
+        if (isMine(x, y))
+            correctFlags--;
+        else
+            wrongFlags--;
+
+        gameOver = (correctFlags == minesNum && wrongFlags == 0);
     }
 
     boolean isMine(int x, int y) {
         return map[y][x] == 'B';
+    }
+
+    boolean isGameOver() {
+        return gameOver;
     }
 
     void print() {
@@ -133,5 +164,13 @@ public class Model {
             for (int j = 0; j < width; j++)
                 if (isMine(j, i))
                     revealedMap[i][j] = true;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getWidth() {
+        return width;
     }
 }
