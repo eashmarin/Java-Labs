@@ -1,17 +1,23 @@
 package lab2.commands;
 
 import lab2.exceptions.ArgumentException;
+import lab2.exceptions.CalculatorException;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import java.util.Stack;
 import java.util.TreeMap;
 
 public class Define implements Command {
     @Override
-    public void exec(InitialContext context) throws NamingException, ArgumentException {
-        String arg = (String) context.lookup("argument");
-        TreeMap<String, Double> vars = (TreeMap<String, Double>) context.lookup("variables");
+    public void exec(InitialContext context) throws CalculatorException {
+        String arg = null;
+        TreeMap<String, Double> vars = null;
+        try {
+            arg = (String) context.lookup("argument");
+            vars = (TreeMap<String, Double>) context.lookup("variables");
+        } catch (NamingException e) {
+            e.printStackTrace();
+        }
 
         String[] args = arg.split("[^a-zA-z0-9[.]]");
         if (args.length < 2)

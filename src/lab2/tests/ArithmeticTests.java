@@ -1,15 +1,14 @@
 package lab2.tests;
 
 import lab2.Calculator;
+import lab2.exceptions.CalculatorException;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
 import java.util.ArrayList;
 
 public class ArithmeticTests {
-    private ArrayList<String> definitionData = new ArrayList<>();
+    private final ArrayList<String> definitionData = new ArrayList<>();
     private ArrayList<String> inputData;
     private Calculator calculator;
 
@@ -26,7 +25,7 @@ public class ArithmeticTests {
     }
 
     @Test
-    public void plusTest() throws Exception {
+    public void plusTest() throws CalculatorException {
         inputData.add("PUSH " + 'k');
         inputData.add("PUSH " + 'm');
         inputData.add("+");
@@ -38,7 +37,7 @@ public class ArithmeticTests {
         Assert.assertEquals(calculator.getDataToPrint(), 'k' + 'm');
     }
     @Test
-    public void minusTest() throws Exception {
+    public void minusTest() throws CalculatorException {
         inputData.add("PUSH " + 'a');
         inputData.add("PUSH " + 'h');
         inputData.add("-");
@@ -51,7 +50,7 @@ public class ArithmeticTests {
     }
 
     @Test
-    public void divideTest() throws Exception {
+    public void divideTest() throws CalculatorException {
 
 
         inputData.add("PUSH " + 'z');
@@ -66,7 +65,7 @@ public class ArithmeticTests {
     }
 
     @Test
-    public void multiplyTest() throws Exception {
+    public void multiplyTest() throws CalculatorException {
         inputData.add("PUSH " + 'k');
         inputData.add("PUSH " + 'm');
         inputData.add("*");
@@ -75,11 +74,11 @@ public class ArithmeticTests {
 
         calculator = new Calculator(inputData);
         calculator.calculate();
-        Assert.assertEquals(calculator.getDataToPrint(), (double)('k' * 'm'));
+        Assert.assertEquals(calculator.getDataToPrint(), ('k' * 'm'));
     }
 
     @Test
-    public void sqrtTest() throws Exception {
+    public void sqrtTest() throws CalculatorException {
         inputData.add("PUSH " + 'h');
         inputData.add("SQRT");
         inputData.add("PRINT");

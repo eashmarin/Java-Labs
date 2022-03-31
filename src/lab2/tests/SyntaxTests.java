@@ -1,6 +1,8 @@
 package lab2.tests;
 
 import lab2.Calculator;
+import lab2.exceptions.CalculatorException;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,7 +19,7 @@ public class SyntaxTests {
     }
 
     @Test
-    public void spaceTest() throws Exception {
+    public void spaceTest() throws CalculatorException {
         inputData.add("   ");
         inputData.add("DEFINE Abc 3.4");
         inputData.add("");
@@ -34,7 +36,7 @@ public class SyntaxTests {
     }
 
     @Test
-    public void commentTest() throws Exception {
+    public void commentTest() throws CalculatorException {
         inputData.add("DEFINE A 3.4");
         inputData.add("PUSH A");
         inputData.add("#DEFINE B 10");
@@ -49,7 +51,7 @@ public class SyntaxTests {
     }
 
     @Test
-    public void pushDoubleTest() throws Exception {
+    public void pushDoubleTest() throws CalculatorException {
         inputData.add("DEFINE some_num 34.6");
         inputData.add("PUSH some_num");
         inputData.add("PUSH 30.4");

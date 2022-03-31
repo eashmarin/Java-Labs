@@ -1,5 +1,6 @@
 package lab2.commands;
 
+import lab2.exceptions.CalculatorException;
 import lab2.exceptions.StackException;
 
 import javax.naming.InitialContext;
@@ -10,20 +11,26 @@ import java.util.TreeMap;
 public class Plus implements Command{
 
     @Override
-    public void exec(InitialContext context) throws NamingException, StackException {;
-        TreeMap<String, Double> vars = (TreeMap<String, Double>) context.lookup("variables");
-        Stack<String> stack = (Stack<String>) context.lookup("stack");
+    public void exec(InitialContext context) throws CalculatorException {
+        TreeMap<String, Double> vars = null;
+        Stack<String> stack = null;
+        try {
+            vars = (TreeMap<String, Double>) context.lookup("variables");
+            stack = (Stack<String>) context.lookup("stack");
+        } catch (NamingException e) {
+            e.printStackTrace();
+        }
 
         if (stack.size() < 2)
             throw new StackException("size of stack < 2, operation \"+\" can't be executed");
 
-        Double summand1 = vars.get(stack.lastElement());
+        Double summandFirst = vars.get(stack.lastElement());
 
         stack.pop();
 
-        Double summand2 = vars.get(stack.lastElement());
+        Double summandSecond = vars.get(stack.lastElement());
 
-        Double result = summand1 + summand2;
+        Double result = summandFirst + summandSecond;
 
         vars.put(stack.lastElement(), result);
     }

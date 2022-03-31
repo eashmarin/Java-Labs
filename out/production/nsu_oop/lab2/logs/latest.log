@@ -1,12 +1,13 @@
-[11:59:18] [Calculator/INFO]: ========Loading Сalculator========
-[11:59:18] [Parser/INFO]: Parsing input data
-[11:59:18] [Calculator/INFO]: Calculating: 
-[11:59:18] [Calculator/INFO]: Define 6 6.8
-[11:59:18] [Calculator/INFO]: Define proc_size 8
-[11:59:18] [Calculator/INFO]: Push 6
-[11:59:18] [Calculator/INFO]: Push proc_size
-[11:59:18] [Calculator/INFO]: Plus 
-[11:59:18] [Calculator/INFO]: Print 
-[11:59:18] [Calculator/INFO]: Push 5
-[11:59:18] [Calculator/INFO]: Sqrt 
-[11:59:18] [Calculator/INFO]: Print 
+[16:28:15] [Calculator/INFO]: ========Loading Calculator========
+[16:28:15] [Parser/INFO]: Parsing input data
+[16:28:15] [Calculator/INFO]: Calculating: 
+[16:28:15] [Calculator/INFO]: Define 6 6.8
+[16:28:15] [Calculator/INFO]: Define proc_size 8
+[16:28:15] [Calculator/INFO]: Push 6
+[16:28:15] [Calculator/INFO]: Push proc_size
+[16:28:15] [Calculator/INFO]: Plus 
+[16:28:15] [Calculator/INFO]: Print 
+[16:28:15] [Calculator/INFO]: Push 5
+[16:28:15] [Calculator/INFO]: Multiply 
+[16:28:15] [Calculator/INFO]: Sqrt 
+[16:28:15] [Calculator/INFO]: Print 

@@ -4,14 +4,11 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.logging.Logger;
 
 public class Reader {
-    //private static final Logger logger = Logger.getLogger(Reader.class.getSimpleName());
 
     public static ArrayList<String> read(String fileName) {
-        //Logger.getLogger("main").warning("Reading file");
-        ArrayList<String> lines = new ArrayList<String>();
+        ArrayList<String> lines = new ArrayList<>();
 
         BufferedReader reader = null;
         try {

@@ -4,10 +4,8 @@ import lab2.commands.Command;
 import lab2.commands.Print;
 import lab2.exceptions.*;
 import org.apache.log4j.Logger;
-import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import javax.naming.directory.InitialDirContext;
 import java.util.*;
 
 public class Calculator {
@@ -17,8 +15,9 @@ public class Calculator {
     double dataToPrint;
     InitialContext context;
     private final Logger logger = Logger.getLogger(Calculator.class.getSimpleName());
-    public Calculator(ArrayList<String> inputData) throws Exception {
-        logger.info("========Loading Сalculator========");
+
+    public Calculator(ArrayList<String> inputData) throws NoPropertyException {
+        logger.info("========Loading Calculator========");
         try {
             Parser parser = new Parser();
             stack = new Stack<>();
@@ -27,22 +26,26 @@ public class Calculator {
             parser.Parse(inputData);
             cmds = parser.getCommands();
 
-            context = new InitialContext() {
+            try {
+                context = new InitialContext() {
 
-                private Map<String, Object> table = new HashMap<>();
+                    private final Map<String, Object> table = new HashMap<>();
 
-                public void bind(String key, Object value) {
-                    table.put(key, value);
-                }
+                    public void bind(String key, Object value) {
+                        table.put(key, value);
+                    }
 
-                public Object lookup(String key) throws NamingException {
-                    return table.get(key);
-                }
-            };
-            context.bind("variables", variables);
-            context.bind("stack", stack);
+                    public Object lookup(String key) {
+                        return table.get(key);
+                    }
+                };
+                context.bind("variables", variables);
+                context.bind("stack", stack);
+            } catch (NamingException e) {
+                e.printStackTrace();
+            }
         }
-        catch (Exception e) {
+        catch (NoPropertyException e) {
             logger.error(e.getMessage());
             throw e;
         }
@@ -52,16 +55,20 @@ public class Calculator {
         return dataToPrint;
     }
 
-    public void calculate() throws NamingException, NegativeRootException, DivByZeroException, StackException, ArgumentException {
-
+    public void calculate() throws CalculatorException {
         logger.info("Calculating: ");
         for (Map.Entry<Command, String> currCmd: cmds.entrySet()) {
             try {
                 logger.info(currCmd.getKey().getClass().getSimpleName() + " " + currCmd.getValue());
 
-                context.bind("argument", currCmd.getValue());
+                try {
+                    context.bind("argument", currCmd.getValue());
+                } catch (NamingException e) {
+                    e.printStackTrace();
+                }
 
                 currCmd.getKey().exec(context);
+
                 if (currCmd.getKey() instanceof Print) {
                     dataToPrint = variables.get(stack.lastElement());
                 }

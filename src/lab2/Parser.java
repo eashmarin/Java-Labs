@@ -2,27 +2,22 @@ package lab2;
 
 
 import lab2.commands.Command;
-import lab2.commands.Define;
-import lab2.commands.Push;
+import lab2.exceptions.NoPropertyException;
 import org.apache.log4j.Logger;
 
-import java.io.FileNotFoundException;
-import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Parser {
-    private LinkedHashMap<Command, String> cmds;
+    private final LinkedHashMap<Command, String> cmds;
     final Logger logger = Logger.getLogger(Parser.class.getSimpleName());
-    //private TreeMap<String, Float> vars;
 
     Parser() {
         cmds = new LinkedHashMap<>();
-        //vars = new TreeMap<String, Float>();
     }
 
-    public void Parse(ArrayList<String> lines) throws Exception {
+    public void Parse(ArrayList<String> lines) throws NoPropertyException {
         logger.info("Parsing input data");
         if (lines == null || lines.isEmpty())
             throw new IllegalArgumentException("input is empty");
