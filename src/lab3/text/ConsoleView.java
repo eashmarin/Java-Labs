@@ -1,6 +1,9 @@
-package lab3;
+package lab3.text;
 
-public class ConsoleView implements View{
+import lab3.Model;
+import lab3.View;
+
+public class ConsoleView implements View {
 
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_GREEN = "\u001B[32m";

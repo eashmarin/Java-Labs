@@ -10,6 +10,7 @@ public class Model {
     boolean gameOver;
     int correctFlags;
     int wrongFlags;
+    int time;
     int height;
     int width;
     int minesNum;
@@ -18,13 +19,20 @@ public class Model {
         width = Integer.parseInt(ConfigParser.getProperty("width"));
         height = Integer.parseInt(ConfigParser.getProperty("height"));
         minesNum = Integer.parseInt(ConfigParser.getProperty("mines_num"));
+
+        map = new char[height][width];
+        revealedMap = new boolean[height][width];
+        flagMap = new boolean[height][width];
+
+        setDefaultModel();
+    }
+
+    public void setDefaultModel() {
         isGenerated = false;
         gameOver = false;
         correctFlags = 0;
         wrongFlags = 0;
-        map = new char[height][width];
-        revealedMap = new boolean[height][width];
-        flagMap = new boolean[height][width];
+        time = 0;
 
         for (int i = 0; i < height; i++)
             for (int j = 0; j < width; j++) {
@@ -57,7 +65,7 @@ public class Model {
 
     }
 
-    void placeMine(int x, int y) {
+    private void placeMine(int x, int y) {
         int leftCornerX = Math.max(0, x - 1);
         int leftCornerY = Math.max(0, y - 1);
         int rightCornerX = Math.min(width - 1, x + 1);
@@ -74,7 +82,7 @@ public class Model {
         }
     }
 
-    void reveal(int x, int y) {
+    public void reveal(int x, int y) {
 
         if (isMine(x, y)) {
             gameOver = true;
@@ -107,7 +115,7 @@ public class Model {
         }
     }
 
-    void setFlag(int x, int y) {
+    public void setFlag(int x, int y) {
         flagMap[y][x] = true;
         if (isMine(x, y))
             correctFlags++;
@@ -117,7 +125,7 @@ public class Model {
         gameOver = (correctFlags == minesNum && wrongFlags == 0);
     }
 
-    void removeFlag(int x, int y) {
+    public void removeFlag(int x, int y) {
         flagMap[y][x] = false;
         if (isMine(x, y))
             correctFlags--;
@@ -127,15 +135,15 @@ public class Model {
         gameOver = (correctFlags == minesNum && wrongFlags == 0);
     }
 
-    boolean isMine(int x, int y) {
+    public boolean isMine(int x, int y) {
         return map[y][x] == 'B';
     }
 
-    boolean isGameOver() {
+    public boolean isGameOver() {
         return gameOver;
     }
 
-    void print() {
+    public void print() {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++)
                 System.out.print(map[i][j] + "  ");
@@ -172,5 +180,13 @@ public class Model {
 
     public int getWidth() {
         return width;
+    }
+
+    public void increaseTimeBySec() {
+        time++;
+    }
+
+    public int getTime() {
+        return time;
     }
 }

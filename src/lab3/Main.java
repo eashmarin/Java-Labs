@@ -1,5 +1,8 @@
 package lab3;
 
+import lab3.gui.GraphicalFactory;
+import lab3.text.ConsoleFactory;
+
 public class Main {
     public static void main(String[] args) {
 

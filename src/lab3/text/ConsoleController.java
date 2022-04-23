@@ -1,8 +1,12 @@
-package lab3;
+package lab3.text;
+
+import lab3.Controller;
+import lab3.Model;
+import lab3.View;
 
 import java.util.Scanner;
 
-public class ConsoleController implements Controller{
+public class ConsoleController implements Controller {
 
     Model model;
     View view;
@@ -17,10 +21,11 @@ public class ConsoleController implements Controller{
         this.model = model;
         this.view = view;
         gameOver = false;
+
+        parseInput();
     }
 
-    @Override
-    public void getInput() {
+    private void parseInput() {
         while (!model.isGameOver()) {
             Scanner scanner = new Scanner(System.in);
             x = scanner.nextInt();
@@ -33,11 +38,6 @@ public class ConsoleController implements Controller{
                     model.print();              // TODO: DEBUG
                 }
 
-                //if (model.isMine(x, y)) {
-                //    gameOver = true;
-                //    model.revealMines();
-                //}
-                //else
                 model.reveal(x, y);
             }
 

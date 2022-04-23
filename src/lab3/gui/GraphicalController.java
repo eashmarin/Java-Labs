@@ -1,4 +1,7 @@
-package lab3;
+package lab3.gui;
+
+import lab3.Controller;
+import lab3.Model;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -6,28 +9,31 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class GraphicalController implements Controller{
+public class GraphicalController implements Controller {        // TODO: rename to GuiController
 
     Model model;
-    View view;
+    GraphicalView view;
+    Timer timer;
     ButtonListener buttonListener;
     MyMouseListener mouseListener;
+    GUIMenuListener menuListener;
+    TimeElapsedListener timeElapsedListener;
     boolean isRightButton;
-    boolean gameOver;
 
     public GraphicalController(Model model, GraphicalView view) {
         this.model = model;
         this.view = view;
+
         isRightButton = false;
-        gameOver = false;
         buttonListener = new ButtonListener();
         mouseListener = new MyMouseListener();
-        view.addListeners(buttonListener, mouseListener);
-    }
+        menuListener = new GUIMenuListener();
+        timeElapsedListener = new TimeElapsedListener();
 
-    @Override
-    public void getInput() {
+        view.addListeners(buttonListener, mouseListener, menuListener);
 
+        timer = new Timer(1000, timeElapsedListener);
+        timer.start();
     }
 
     class ButtonListener implements ActionListener {
@@ -44,10 +50,7 @@ public class GraphicalController implements Controller{
                         model.generate(x, y);
                         model.print();
                     }
-                    //if (model.isMine(x, y)) {
-                        //gameOver = true;
-                    //    model.revealMines();
-                    //}
+
                     model.reveal(x, y);
                 } else {
                     if (model.isFlag(x,y))
@@ -55,6 +58,7 @@ public class GraphicalController implements Controller{
                     else
                         model.setFlag(x, y);
                 }
+
                 view.update(model);
             }
         }
@@ -89,6 +93,41 @@ public class GraphicalController implements Controller{
         @Override
         public void mouseExited(MouseEvent e) {
 
+        }
+    }
+
+    class GUIMenuListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            String name = ((JMenuItem) e.getSource()).getName();
+            if (name == "new_game") {
+                model.setDefaultModel();
+                view.setTime(0);
+                timer.start();
+                view.update(model);
+            }
+
+            if (name == "high_scores") {
+                view.showRankingFrame();
+            }
+
+            if (name == "exit") {
+                //view.getFrame().dispose();      // TODO: replace?
+                System.exit(0);
+            }
+        }
+    }
+
+    class TimeElapsedListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if (!model.isGameOver()) {
+                model.increaseTimeBySec();
+                view.setTime(model.getTime());
+            } else {
+                timer.stop();
+            }
         }
     }
 }
