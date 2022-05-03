@@ -1,57 +1,50 @@
 package lab3.gui;
 
-import lab3.RankingData;
-import lab3.Sorter;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.util.Map;
 import java.util.TreeMap;
-import java.util.Vector;
 
 public class GuiRankingFrame extends JFrame {
     JTable table;
-    TreeMap<String, Integer> data;
-    RankingData tableData;
+    JScrollPane scrollPane;
     DefaultTableCellRenderer renderer;
+    DefaultTableModel model;
 
     GuiRankingFrame() {
 
-        tableData = new RankingData();
-
-        data = tableData.loadFromFile(getClass().getResource("/lab3/resources/ranking.csv").getFile());
-
-        data = Sorter.sortData(data);
-
-        DefaultTableModel model = new DefaultTableModel(new Object[] {"Key", "Value"}, 0);
-        for (Map.Entry<String, Integer> entry: data.entrySet())
-            model.addRow(new Object[] {entry.getKey(), entry.getValue()});
-
-        table = new JTable(model) {
+        table = new JTable() {
             @Override
             public boolean isCellEditable(int row, int column) {
                 return false;
             }
         };
+        table.setPreferredScrollableViewportSize(new Dimension(100, 34));
+        table.setFillsViewportHeight(true);
+        table.setRowHeight(20);
+        scrollPane = new JScrollPane(table);
+        scrollPane.setViewportView(table);
 
         renderer = new DefaultTableCellRenderer();
         renderer.setHorizontalAlignment(SwingConstants.CENTER);
 
         table.setDefaultRenderer(Object.class, renderer);
-        table.setFont(new Font(table.getFont().getFontName(), Font.BOLD, 16));
+        table.setFont(new Font(table.getFont().getFontName(), Font.PLAIN, 16));
 
-        //table.setTableHeader();
-        //table.setBackground(Color.DARK_GRAY);
-
-        setTitle("Rankings");
-        setSize(new Dimension(75, 150));
+        setSize(new Dimension(200, 300));
         setLayout(new BorderLayout());
 
-
-
         add(table, BorderLayout.CENTER);
-        //setVisible(true);
+        add(new JScrollPane(table));
+    }
+
+    public void setData(TreeMap<String, Double> rankingData) {
+        model = new DefaultTableModel(new Object[] {"Player", "Time"}, 0);
+        for (Map.Entry<String, Double> entry: rankingData.entrySet()) {
+            model.addRow(new Object[]{entry.getKey(), entry.getValue()});
+        }
+        table.setModel(model);
     }
 }

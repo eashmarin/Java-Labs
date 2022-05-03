@@ -8,8 +8,6 @@ public class Main {
 
         Factory factory;
 
-        System.out.println(args[0]);
-
         if (args[0].equals("Console"))
             factory = new ConsoleFactory();
         else

@@ -1,6 +1,8 @@
 package lab3;
 
-import lab3.resources.ConfigParser;
+import lab3.resources.Config;
+
+import java.util.TreeMap;
 
 public class Model {
     char[][] map;
@@ -8,28 +10,39 @@ public class Model {
     boolean[][] flagMap;
     boolean isGenerated;
     boolean gameOver;
+    boolean isWin;
+    String playerName;
+    TreeMap<String, Double> rankingData;
     int correctFlags;
     int wrongFlags;
-    int time;
+    double time;
+    long startTime;
+    long estimatedTime;
     int height;
     int width;
     int minesNum;
 
     public Model() {
-        width = Integer.parseInt(ConfigParser.getProperty("width"));
-        height = Integer.parseInt(ConfigParser.getProperty("height"));
-        minesNum = Integer.parseInt(ConfigParser.getProperty("mines_num"));
+        String pathToRanking = getClass().getResource("/lab3/resources/ranking.csv").getFile();
 
-        map = new char[height][width];
-        revealedMap = new boolean[height][width];
-        flagMap = new boolean[height][width];
+        rankingData = RankingParser.parse(Reader.read(pathToRanking));
 
         setDefaultModel();
     }
 
     public void setDefaultModel() {
+
+        width = Integer.parseInt(Config.getProperty("width"));
+        height = Integer.parseInt(Config.getProperty("height"));
+        minesNum = Integer.parseInt(Config.getProperty("mines_num"));
+
+        map = new char[height][width];
+        revealedMap = new boolean[height][width];
+        flagMap = new boolean[height][width];
+
         isGenerated = false;
         gameOver = false;
+        isWin = false;
         correctFlags = 0;
         wrongFlags = 0;
         time = 0;
@@ -43,11 +56,13 @@ public class Model {
     }
 
     public void generate(int centerX, int centerY) {
+
+        startTime = System.nanoTime();
+
         int leftCornerX = Math.max(0, centerX - 2);
         int leftCornerY = Math.max(0, centerY - 2);
         int rightCornerX = Math.min(width - 1, centerX + 2);
         int rightCornerY = Math.min(height - 1, centerY + 2);
-
 
         for (int i = 0; i < minesNum; i++) {
             int x;
@@ -62,7 +77,6 @@ public class Model {
         }
 
         isGenerated = true;
-
     }
 
     private void placeMine(int x, int y) {
@@ -92,7 +106,6 @@ public class Model {
         if (!revealedMap[y][x] && !isFlag(x, y)) {
             revealedMap[y][x] = true;
             if (map[y][x] == '0') {
-
                 if (x > 0)
                     reveal(x - 1, y);
                 if (y > 0)
@@ -115,6 +128,24 @@ public class Model {
         }
     }
 
+    void fixRecord() {
+        isWin = true;
+        estimatedTime = System.nanoTime() - startTime;
+        estimatedTime *= 1e-9;
+
+        if (!rankingData.containsKey(playerName)) {
+            rankingData.put(playerName, (double) estimatedTime);
+            RankingWriter.write(playerName, (double) estimatedTime, getClass().getResource("/lab3/resources/ranking.csv").getFile());
+        }
+        else {
+            double oldTime = rankingData.get(playerName);
+            if (time < oldTime) {
+                rankingData.put(playerName, (double) estimatedTime);
+                RankingWriter.write(playerName, (double) estimatedTime, getClass().getResource("/lab3/resources/ranking.csv").getFile());
+            }
+        }
+    }
+
     public void setFlag(int x, int y) {
         flagMap[y][x] = true;
         if (isMine(x, y))
@@ -123,6 +154,8 @@ public class Model {
             wrongFlags++;
 
         gameOver = (correctFlags == minesNum && wrongFlags == 0);
+        if (gameOver)
+            fixRecord();
     }
 
     public void removeFlag(int x, int y) {
@@ -133,6 +166,12 @@ public class Model {
             wrongFlags--;
 
         gameOver = (correctFlags == minesNum && wrongFlags == 0);
+        if (gameOver)
+            fixRecord();
+    }
+
+    public void setPlayerName(String name) {
+        playerName = name;
     }
 
     public boolean isMine(int x, int y) {
@@ -144,6 +183,7 @@ public class Model {
     }
 
     public void print() {
+        System.out.print("\n\n");
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++)
                 System.out.print(map[i][j] + "  ");
@@ -186,7 +226,15 @@ public class Model {
         time++;
     }
 
-    public int getTime() {
+    public double getTime() {
         return time;
+    }
+
+    public TreeMap<String, Double> getRankingData() {
+        return Sorter.sortData(rankingData);
+    }
+
+    public boolean isWin() {
+        return isWin;
     }
 }

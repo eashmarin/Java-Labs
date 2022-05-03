@@ -8,6 +8,5 @@ public class Minesweeper {
         Model model = new Model();
         View view = factory.createView(model.getHeight(), model.getWidth());
         Controller controller = factory.createController(model, view);
-
     }
 }
