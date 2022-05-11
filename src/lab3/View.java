@@ -3,7 +3,7 @@ package lab3;
 import java.util.TreeMap;
 
 public interface View {
-    void update(Model model);
+    void update();
 
     String getInputName();
 
@@ -16,4 +16,8 @@ public interface View {
     void showRanking(TreeMap<String, Double> rankingData);
 
     void showAbout();
+
+    void startTimer();
+
+    void stopTimer();
 }

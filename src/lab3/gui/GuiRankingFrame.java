@@ -8,10 +8,10 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class GuiRankingFrame extends JFrame {
-    JTable table;
-    JScrollPane scrollPane;
-    DefaultTableCellRenderer renderer;
-    DefaultTableModel model;
+    private JTable table;
+    private JScrollPane scrollPane;
+    private DefaultTableCellRenderer renderer;
+    private DefaultTableModel model;
 
     GuiRankingFrame() {
 

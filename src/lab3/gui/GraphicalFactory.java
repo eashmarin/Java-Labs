@@ -7,8 +7,8 @@ import lab3.View;
 
 public class GraphicalFactory implements Factory {
     @Override
-    public View createView(int height, int width) {
-        return new GraphicalView(height, width);
+    public View createView(Model model) {
+        return new GraphicalView(model);
     }
 
     @Override

@@ -7,8 +7,8 @@ import lab3.View;
 
 public class ConsoleFactory implements Factory {
     @Override
-    public View createView(int height, int width) {
-        return new ConsoleView(height, width);
+    public View createView(Model model) {
+        return new ConsoleView(model);
     }
 
     @Override

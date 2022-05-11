@@ -26,7 +26,6 @@ public class CustomTimer implements Runnable{
         timer = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //System.out.println(Thread.currentThread().getName());
                 if (!model.isGameOver()) {
                     model.increaseTimeBySec();
                     view.setTime((int)model.getTime());
@@ -40,7 +39,9 @@ public class CustomTimer implements Runnable{
                 }
             }
         });
+    }
 
-        timer.start();
+    public void stop() {
+        timer.stop();
     }
 }

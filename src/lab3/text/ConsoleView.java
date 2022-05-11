@@ -1,5 +1,6 @@
 package lab3.text;
 
+import lab3.CustomTimer;
 import lab3.Model;
 import lab3.View;
 
@@ -9,40 +10,48 @@ import java.util.TreeMap;
 
 public class ConsoleView implements View {
 
-    public static final String ANSI_RESET = "\u001B[0m";
-    public static final String ANSI_GREEN = "\u001B[32m";
-    public static final String ANSI_BLUE = "\u001B[34m";
-    public static final String ANSI_RED = "\u001B[31m";
-    public static final String ANSI_PURPLE = "\u001B[35m";
-    public static final String ANSI_BLACK_BRIGHT = "\033[0;90m";
+    private static final String ANSI_RESET = "\u001B[0m";
+    private static final String ANSI_GREEN = "\u001B[32m";
+    private static final String ANSI_BLUE = "\u001B[34m";
+    private static final String ANSI_RED = "\u001B[31m";
+    private static final String ANSI_PURPLE = "\u001B[35m";
+    private static final String ANSI_BLACK_BRIGHT = "\033[0;90m";
 
-    int height;
-    int width;
+    private int height;
+    private int width;
+    private CustomTimer timer;
+    private Model model;
 
-    public ConsoleView(int height, int width) {
-        this.height = height;
-        this.width = width;
+    public ConsoleView(Model model) {
+        this.height = model.getHeight();
+        this.width = model.getWidth();
+        this.model = model;
+
+        timer = new CustomTimer(model, this);
+
+        Thread threadTimer = new Thread(timer);
+        threadTimer.start();
     }
 
     @Override
-    public void update(Model model) {
+    public void update() {
         System.out.print("\n\n");
 
         for (int i = 0; i < width; i++)
-            System.out.print(ANSI_GREEN + i + "  " + ANSI_RESET);
+            System.out.print(ANSI_PURPLE + i + "  " + ANSI_RESET);
         System.out.println();
 
         char symbol;
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (model.isRevealed(j, i)) {
-                    if (model.isMine(j, i))
-                        System.out.print(ANSI_RED);
                     symbol = model.at(j, i);
                 }
                 else {
-                    if (model.isFlag(j, i))
+                    if (model.isFlag(j, i)) {
                         symbol = '*';
+                        System.out.print(ANSI_RED);
+                    }
                     else
                         symbol = '^';
                 }
@@ -82,12 +91,21 @@ public class ConsoleView implements View {
             System.out.print(ANSI_PURPLE + entry.getKey());
             System.out.print(ANSI_RESET + " - ");
             System.out.print(ANSI_GREEN + entry.getValue() + ANSI_RESET + "\n");
-            //System.out.println(entry.getKey() + " - " + entry.getValue());
         }
     }
 
     @Override
     public void showAbout() {
         System.out.println("This game was made by student of IT department - Evgeniy Ashmarin");
+    }
+
+    @Override
+    public void startTimer() {
+        timer.startTimer();
+    }
+
+    @Override
+    public void stopTimer() {
+        timer.stop();
     }
 }

@@ -5,22 +5,21 @@ import lab3.resources.Config;
 import java.util.TreeMap;
 
 public class Model {
-    char[][] map;
-    boolean[][] revealedMap;
-    boolean[][] flagMap;
-    boolean isGenerated;
-    boolean gameOver;
-    boolean isWin;
-    String playerName;
-    TreeMap<String, Double> rankingData;
-    int correctFlags;
-    int wrongFlags;
-    double time;
-    long startTime;
-    long estimatedTime;
-    int height;
-    int width;
-    int minesNum;
+    private char[][] map;
+    private boolean[][] revealedMap;
+    private boolean[][] flagMap;
+    private boolean isGenerated;
+    private boolean gameOver;
+    private boolean isWin;
+    private String playerName;
+    private TreeMap<String, Double> rankingData;
+    private int revealedCount;
+    private double time;
+    private long startTime;
+    private long estimatedTime;
+    private int height;
+    private int width;
+    private int minesNum;
 
     public Model() {
         String pathToRanking = getClass().getResource("/lab3/resources/ranking.csv").getFile();
@@ -43,8 +42,7 @@ public class Model {
         isGenerated = false;
         gameOver = false;
         isWin = false;
-        correctFlags = 0;
-        wrongFlags = 0;
+        revealedCount = 0;
         time = 0;
 
         for (int i = 0; i < height; i++)
@@ -104,7 +102,20 @@ public class Model {
         }
 
         if (!revealedMap[y][x] && !isFlag(x, y)) {
+
+            if (!isGenerated) {
+                generate(x, y);
+                print();  //TODO: DEBUG
+            }
+
             revealedMap[y][x] = true;
+            revealedCount++;
+
+            if (revealedCount == width * height) {
+                gameOver = true;
+                isWin = true;
+                fixRecord();
+            }
             if (map[y][x] == '0') {
                 if (x > 0)
                     reveal(x - 1, y);
@@ -147,25 +158,18 @@ public class Model {
     }
 
     public void setFlag(int x, int y) {
-        flagMap[y][x] = true;
-        if (isMine(x, y))
-            correctFlags++;
-        else
-            wrongFlags++;
+        flagMap[y][x] = !flagMap[y][x];
 
-        gameOver = (correctFlags == minesNum && wrongFlags == 0);
-        if (gameOver)
-            fixRecord();
-    }
+        if (!isMine(x, y) && !isFlag(x, y))
+            revealedCount++;
 
-    public void removeFlag(int x, int y) {
-        flagMap[y][x] = false;
-        if (isMine(x, y))
-            correctFlags--;
-        else
-            wrongFlags--;
+        if (isMine(x, y) && isFlag(x, y))
+            revealedCount++;
 
-        gameOver = (correctFlags == minesNum && wrongFlags == 0);
+        if (!isMine(x, y)  && isFlag(x, y) || isMine(x, y) && !isFlag(x, y))
+            revealedCount--;
+
+        gameOver = (revealedCount == width * height);
         if (gameOver)
             fixRecord();
     }
@@ -189,10 +193,6 @@ public class Model {
                 System.out.print(map[i][j] + "  ");
             System.out.println();
         }
-    }
-
-    public boolean isMapGenerated() {
-        return isGenerated;
     }
 
     public boolean isRevealed(int x, int y) {

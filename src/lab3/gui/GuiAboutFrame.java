@@ -10,7 +10,5 @@ public class GuiAboutFrame extends JFrame {
         add(label);
         label.setSize(200, 50);
         setSize(new Dimension(200, 50));
-
-        //setVisible(true);
     }
 }

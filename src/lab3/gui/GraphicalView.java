@@ -1,5 +1,6 @@
 package lab3.gui;
 
+import lab3.CustomTimer;
 import lab3.Model;
 import lab3.View;
 
@@ -8,30 +9,41 @@ import lab3.gui.GraphicalController.GUIMenuListener;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.TreeMap;
 
 public class GraphicalView implements View {
-    int height;
-    int width;
-    GUI gui;
-    ArrayList<JButton> buttons;
-    ImageIcon buttonIcon;
-    ImageIcon revealedIcon;
-    ImageIcon oneIcon;
-    ImageIcon twoIcon;
-    ImageIcon threeIcon;
-    ImageIcon fourIcon;
-    ImageIcon fiveIcon;
-    ImageIcon sixIcon;
-    ImageIcon sevenIcon;
-    ImageIcon eightIcon;
-    ImageIcon flagIcon;
-    ImageIcon mineIcon;
-    ImageIcon mineExplodedIcon;
+    private int height;
+    private int width;
+    private Model model;
+    private CustomTimer timer;
+    private Thread threadTimer;
+    private GUI gui;
+    private ArrayList<JButton> buttons;
+    private ImageIcon buttonIcon;
+    private ImageIcon revealedIcon;
+    private ImageIcon oneIcon;
+    private ImageIcon twoIcon;
+    private ImageIcon threeIcon;
+    private ImageIcon fourIcon;
+    private ImageIcon fiveIcon;
+    private ImageIcon sixIcon;
+    private ImageIcon sevenIcon;
+    private ImageIcon eightIcon;
+    private ImageIcon flagIcon;
+    private ImageIcon mineIcon;
+    //private ImageIcon mineExplodedIcon;
+    private HashMap<Character, ImageIcon> iconMap;
 
-    public GraphicalView(int height, int width) {
-        this.height = height;
-        this.width = width;
+    public GraphicalView(Model model) {
+        this.height = model.getHeight();
+        this.width = model.getWidth();
+        this.model = model;
+
+        timer = new CustomTimer(model, this);
+
+        threadTimer = new Thread(timer);
+        threadTimer.start();
 
         gui = new GUI(height, width);
 
@@ -47,7 +59,20 @@ public class GraphicalView implements View {
         eightIcon = new ImageIcon(getClass().getResource("/lab3/resources/8.png"), "8");
         flagIcon = new ImageIcon(getClass().getResource("/lab3/resources/flag.png"), "flag");
         mineIcon = new ImageIcon(getClass().getResource("/lab3/resources/mine.png"), "mine");
-        mineExplodedIcon = new ImageIcon(getClass().getResource("/lab3/resources/mine_exploded.png"), "mine_exploded");
+        //mineExplodedIcon = new ImageIcon(getClass().getResource("/lab3/resources/mine_exploded.png"), "mine_exploded");
+
+        iconMap = new HashMap<>() {{
+            put('0', revealedIcon);
+            put('1', oneIcon);
+            put('2', twoIcon);
+            put('3', threeIcon);
+            put('4', fourIcon);
+            put('5', fiveIcon);
+            put('6', sixIcon);
+            put('7', sevenIcon);
+            put('8', eightIcon);
+            put('B', mineIcon);
+        }};
 
         initButtons();
     }
@@ -68,36 +93,12 @@ public class GraphicalView implements View {
     }
 
     @Override
-    public void update(Model model) {
+    public void update() {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 int index = i * width + j;
                 if (model.isRevealed(j, i)) {
-                    if (model.at(j, i) == '0')
-                        buttons.get(index).setIcon(revealedIcon);
-                    if (model.at(j, i) == '1')
-                        buttons.get(index).setIcon(oneIcon);
-                    if (model.at(j, i) == '2')
-                        buttons.get(index).setIcon(twoIcon);
-                    if (model.at(j, i) == '3')
-                        buttons.get(index).setIcon(threeIcon);
-                    if (model.at(j, i) == '4')
-                        buttons.get(index).setIcon(fourIcon);
-                    if (model.at(j, i) == '5')
-                        buttons.get(index).setIcon(fiveIcon);
-                    if (model.at(j, i) == '6')
-                        buttons.get(index).setIcon(sixIcon);
-                    if (model.at(j, i) == '7')
-                        buttons.get(index).setIcon(sevenIcon);
-                    if (model.at(j, i) == '8')
-                        buttons.get(index).setIcon(eightIcon);
-
-                    if (model.isMine(j, i)) {
-                        if (model.isFlag(j, i))
-                            buttons.get(index).setIcon(mineIcon);
-                        else
-                            buttons.get(index).setIcon(mineExplodedIcon);
-                    }
+                    buttons.get(index).setIcon(iconMap.get(model.at(j, i)));
                 } else {
                     if (model.isFlag(j, i))
                         buttons.get(index).setIcon(flagIcon);
@@ -145,5 +146,14 @@ public class GraphicalView implements View {
     @Override
     public void showAbout() {
         JOptionPane.showMessageDialog(null, "This game was made \nby student of IT department\n - Evgeniy Ashmarin", "About", JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    @Override
+    public void startTimer() {
+        timer.startTimer();
+    }
+
+    public void stopTimer() {
+        timer.stop();
     }
 }
