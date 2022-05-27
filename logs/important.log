@@ -1,0 +1,603 @@
+2022-03-08 11:02:04,335 ERROR l.Main [main] invalid command - pu
+2022-03-08 11:04:41,520 ERROR l.Main [main] invalid command - pu
+2022-03-08 11:09:23,737 ERROR l.Main [main] invalid command - pu
+2022-03-08 17:47:42,018 ERROR l.Main [main] invalid command - pu
+2022-03-08 18:06:56,657 ERROR l.Main [main] invalid command - pu
+2022-03-08 18:11:30,132 ERROR Calculator [main] input is empty
+2022-03-08 18:11:30,132 ERROR Calculator [main] input is empty
+2022-03-08 18:12:21,313 ERROR Calculator [main] input is empty
+2022-03-08 18:12:21,313 ERROR Calculator [main] input is empty
+2022-03-08 18:13:03,921 ERROR Calculator [main] input is empty
+2022-03-08 18:13:03,937 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:13:03,937 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:14:55,411 ERROR Calculator [main] input is empty
+2022-03-08 18:14:55,411 ERROR Calculator [main] input is empty
+2022-03-08 18:14:55,411 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:14:55,427 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:15:57,150 ERROR Calculator [main] input is empty
+2022-03-08 18:15:57,150 ERROR Calculator [main] input is empty
+2022-03-08 18:15:57,166 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:15:57,181 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:16:58,480 ERROR Calculator [main] input is empty
+2022-03-08 18:16:58,496 ERROR Calculator [main] input is empty
+2022-03-08 18:16:58,496 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:16:58,511 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:17:12,707 ERROR Calculator [main] input is empty
+2022-03-08 18:17:12,723 ERROR Calculator [main] null
+2022-03-08 18:17:12,739 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:17:12,754 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:19:00,506 ERROR Calculator [main] input is empty
+2022-03-08 18:19:00,522 ERROR Calculator [main] null
+2022-03-08 18:19:00,538 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:19:00,538 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:21:10,710 ERROR Calculator [main] input is empty
+2022-03-08 18:21:10,725 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:21:10,741 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:21:10,757 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:23:02,331 ERROR Calculator [main] input is empty
+2022-03-08 18:23:02,347 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:23:02,347 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:23:02,362 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:23:02,378 ERROR Calculator [main] division by zero
+2022-03-08 18:25:02,653 ERROR Calculator [main] input is empty
+2022-03-08 18:25:02,669 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:25:02,684 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:25:02,700 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:25:02,700 ERROR Calculator [main] invalid command - define
+2022-03-08 18:25:02,716 ERROR Calculator [main] division by zero
+2022-03-08 18:25:48,167 ERROR Calculator [main] input is empty
+2022-03-08 18:25:48,182 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:25:48,198 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:25:48,214 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:25:48,214 ERROR Calculator [main] invalid command - define
+2022-03-08 18:25:48,229 ERROR Calculator [main] Index 1 out of bounds for length 1
+2022-03-08 18:25:48,245 ERROR Calculator [main] division by zero
+2022-03-08 18:31:24,543 ERROR Calculator [main] input is empty
+2022-03-08 18:31:24,559 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:31:24,574 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:31:24,590 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:31:24,590 ERROR Calculator [main] invalid command - define
+2022-03-08 18:31:24,605 ERROR Calculator [main] Index 1 out of bounds for length 1
+2022-03-08 18:31:24,605 ERROR Calculator [main] division by zero
+2022-03-08 18:31:49,092 ERROR Calculator [main] input is empty
+2022-03-08 18:31:49,108 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:31:49,124 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:31:49,124 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:31:49,139 ERROR Calculator [main] invalid command - define
+2022-03-08 18:31:49,139 ERROR Calculator [main] Index 1 out of bounds for length 1
+2022-03-08 18:31:49,155 ERROR Calculator [main] division by zero
+2022-03-08 18:32:19,881 ERROR Calculator [main] input is empty
+2022-03-08 18:32:19,897 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:32:19,913 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:32:19,913 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:32:19,928 ERROR Calculator [main] invalid command - define
+2022-03-08 18:41:19,610 ERROR Calculator [main] Index 1 out of bounds for length 1
+2022-03-08 18:41:19,625 ERROR Calculator [main] division by zero
+2022-03-08 18:41:31,020 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,051 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,051 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,067 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,082 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,082 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,098 ERROR Calculator [main] input is empty
+2022-03-08 18:41:31,114 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:41:31,114 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,129 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:31,129 ERROR Calculator [main] invalid command - define
+2022-03-08 18:41:32,498 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,513 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,529 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,529 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,545 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,560 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,560 ERROR Calculator [main] input is empty
+2022-03-08 18:41:32,576 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:41:32,592 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,592 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:41:32,607 ERROR Calculator [main] invalid command - define
+2022-03-08 18:41:32,607 ERROR Calculator [main] operation "DEFINE " needs argument
+2022-03-08 18:41:32,623 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:42:31,939 ERROR Calculator [main] operation "DEFINE " needs argument
+2022-03-08 18:42:31,941 ERROR Calculator [main] operation "PUSH " needs argument
+2022-03-08 18:42:34,935 ERROR Calculator [main] input is empty
+2022-03-08 18:42:34,950 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:42:34,966 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:42:34,966 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:42:34,982 ERROR Calculator [main] invalid command - define
+2022-03-08 18:42:34,982 ERROR Calculator [main] Index 1 out of bounds for length 1
+2022-03-08 18:42:34,997 ERROR Calculator [main] division by zero
+2022-03-08 18:44:54,007 ERROR Calculator [main] input is empty
+2022-03-08 18:44:54,022 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:44:54,022 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:44:54,038 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:44:54,053 ERROR Calculator [main] invalid command - define
+2022-03-08 18:44:54,053 ERROR Calculator [main] operation "DEFINE " needs argument
+2022-03-08 18:44:54,069 ERROR Calculator [main] division by zero
+2022-03-08 18:45:21,776 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,792 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,792 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,792 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,792 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,807 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,807 ERROR Calculator [main] input is empty
+2022-03-08 18:45:21,807 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,807 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,823 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,823 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,823 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:21,823 ERROR Calculator [main] invalid command - DEFIN
+2022-03-08 18:45:38,243 ERROR Calculator [main] input is empty
+2022-03-08 18:45:38,259 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:45:38,274 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:45:38,274 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:45:38,290 ERROR Calculator [main] invalid command - define
+2022-03-08 18:45:38,290 ERROR Calculator [main] operation "DEFINE " needs argument
+2022-03-08 18:45:38,305 ERROR Calculator [main] division by zero
+2022-03-08 18:45:43,704 ERROR Calculator [main] input is empty
+2022-03-08 18:45:43,704 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:45:43,719 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:45:43,735 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:45:43,735 ERROR Calculator [main] invalid command - define
+2022-03-08 18:45:43,750 ERROR Calculator [main] operation "DEFINE " needs argument
+2022-03-08 18:45:43,750 ERROR Calculator [main] division by zero
+2022-03-08 18:45:57,240 ERROR Calculator [main] input is empty
+2022-03-08 18:45:57,255 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:45:57,255 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:45:57,271 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:45:57,271 ERROR Calculator [main] invalid command - define
+2022-03-08 18:45:57,286 ERROR Calculator [main] operation "DEFINE" needs argument
+2022-03-08 18:45:57,302 ERROR Calculator [main] division by zero
+2022-03-08 18:47:45,643 ERROR Calculator [main] input is empty
+2022-03-08 18:47:45,659 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:47:45,659 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:47:45,674 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:47:45,674 ERROR Calculator [main] invalid command - define
+2022-03-08 18:47:45,690 ERROR Calculator [main] operation "DEFINE" syntax should be: DEFINE name value
+2022-03-08 18:47:45,705 ERROR Calculator [main] division by zero
+2022-03-08 18:48:13,054 ERROR Calculator [main] input is empty
+2022-03-08 18:48:13,070 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:48:13,085 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:48:13,085 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:48:13,101 ERROR Calculator [main] invalid command - define
+2022-03-08 18:48:13,101 ERROR Calculator [main] operation "DEFINE" syntax should be: DEFINE <name> <value>
+2022-03-08 18:48:13,117 ERROR Calculator [main] division by zero
+2022-03-08 18:48:59,250 ERROR Calculator [main] input is empty
+2022-03-08 18:48:59,250 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:48:59,265 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:48:59,281 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:48:59,281 ERROR Calculator [main] invalid command - define
+2022-03-08 18:48:59,297 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:48:59,297 ERROR Calculator [main] division by zero
+2022-03-08 18:49:56,243 ERROR Calculator [main] input is empty
+2022-03-08 18:49:56,259 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:49:56,259 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:49:56,274 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:49:56,274 ERROR Calculator [main] invalid command - define
+2022-03-08 18:49:56,290 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:49:56,290 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:49:56,305 ERROR Calculator [main] division by zero
+2022-03-08 18:51:36,011 ERROR Calculator [main] input is empty
+2022-03-08 18:51:36,027 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:51:36,027 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:51:36,042 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:51:36,042 ERROR Calculator [main] invalid command - define
+2022-03-08 18:51:36,058 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:51:36,058 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:51:36,074 ERROR Calculator [main] For input string: "k"
+2022-03-08 18:51:36,089 ERROR Calculator [main] division by zero
+2022-03-08 18:54:28,586 ERROR Calculator [main] input is empty
+2022-03-08 18:54:28,602 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:54:28,602 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:54:28,617 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:54:28,633 ERROR Calculator [main] invalid command - define
+2022-03-08 18:54:28,633 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:54:28,649 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:54:28,664 ERROR Calculator [main] For input string: "k"
+2022-03-08 18:54:28,664 ERROR Calculator [main] last argument of operation "DEFINE" must be a number
+2022-03-08 18:56:31,366 ERROR Calculator [main] input is empty
+2022-03-08 18:56:31,381 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:56:31,397 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:56:31,397 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:56:31,412 ERROR Calculator [main] invalid command - define
+2022-03-08 18:56:31,412 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:56:31,428 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:56:31,428 ERROR Calculator [main] value of variable in operation "DEFINE" must be a number
+2022-03-08 18:56:31,444 ERROR Calculator [main] division by zero
+2022-03-08 18:57:50,695 ERROR Calculator [main] input is empty
+2022-03-08 18:57:50,711 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:57:50,726 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:57:50,742 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:57:50,742 ERROR Calculator [main] invalid command - define
+2022-03-08 18:57:50,758 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:57:50,758 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:57:50,773 ERROR Calculator [main] variable in "DEFINE" must be a number
+2022-03-08 18:57:50,789 ERROR Calculator [main] division by zero
+2022-03-08 18:58:03,910 ERROR Calculator [main] input is empty
+2022-03-08 18:58:03,925 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:58:03,941 ERROR Calculator [main] Definition of pp is missing
+2022-03-08 18:58:03,941 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:58:03,957 ERROR Calculator [main] invalid command - define
+2022-03-08 18:58:03,957 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:58:03,972 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:58:03,972 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 18:58:03,988 ERROR Calculator [main] division by zero
+2022-03-08 18:59:29,909 ERROR Calculator [main] input is empty
+2022-03-08 18:59:29,924 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:59:29,940 ERROR Calculator [main] Definition of pp is missed
+2022-03-08 18:59:29,956 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:59:29,956 ERROR Calculator [main] invalid command - define
+2022-03-08 18:59:29,956 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:59:29,971 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:59:29,987 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 18:59:29,987 ERROR Calculator [main] division by zero
+2022-03-08 18:59:56,586 ERROR Calculator [main] input is empty
+2022-03-08 18:59:56,586 ERROR Calculator [main] size of stack < 2, operation Multiply can't be executed
+2022-03-08 18:59:56,602 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 18:59:56,618 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 18:59:56,618 ERROR Calculator [main] invalid command - define
+2022-03-08 18:59:56,618 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 18:59:56,633 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 18:59:56,649 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 18:59:56,649 ERROR Calculator [main] division by zero
+2022-03-08 19:00:48,482 ERROR Calculator [main] input is empty
+2022-03-08 19:00:48,498 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:00:48,498 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:00:48,513 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:00:48,513 ERROR Calculator [main] invalid command - define
+2022-03-08 19:00:48,529 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:00:48,529 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:00:48,545 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:00:48,560 ERROR Calculator [main] division by zero
+2022-03-08 19:09:22,351 ERROR Calculator [main] division by zero
+2022-03-08 19:09:22,367 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:09:22,367 ERROR Calculator [main] invalid command - define
+2022-03-08 19:09:22,382 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:09:22,398 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:09:22,398 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:09:22,413 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:09:22,413 ERROR Calculator [main] input is empty
+2022-03-08 19:09:22,429 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:12:07,031 ERROR Calculator [main] division by zero
+2022-03-08 19:12:07,047 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:12:07,047 ERROR Calculator [main] invalid command - define
+2022-03-08 19:12:07,063 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:12:07,063 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:12:07,078 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:12:07,094 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:12:07,094 ERROR Calculator [main] input is empty
+2022-03-08 19:12:07,094 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:19:15,892 ERROR Calculator [main] division by zero
+2022-03-08 19:19:15,908 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:19:15,923 ERROR Calculator [main] invalid command - define
+2022-03-08 19:19:15,923 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:19:15,939 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:19:15,939 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:19:15,954 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:19:15,954 ERROR Calculator [main] input is empty
+2022-03-08 19:19:15,970 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:19:53,855 ERROR Calculator [main] division by zero
+2022-03-08 19:19:53,871 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:19:53,886 ERROR Calculator [main] invalid command - define
+2022-03-08 19:19:53,886 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:19:53,902 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:19:53,902 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:19:53,918 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:19:53,918 ERROR Calculator [main] input is empty
+2022-03-08 19:19:53,933 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:19:53,933 ERROR Calculator [main] Definition of "A" is missed
+2022-03-08 19:20:28,168 ERROR Calculator [main] division by zero
+2022-03-08 19:20:28,183 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:20:28,199 ERROR Calculator [main] invalid command - define
+2022-03-08 19:20:28,199 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:20:28,214 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:20:28,214 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:20:28,230 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:20:28,230 ERROR Calculator [main] input is empty
+2022-03-08 19:20:28,246 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:22:22,514 ERROR Calculator [main] division by zero
+2022-03-08 19:22:22,530 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:22:22,530 ERROR Calculator [main] invalid command - define
+2022-03-08 19:22:22,545 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:22:22,545 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:22:22,561 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:22:22,577 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:22:22,577 ERROR Calculator [main] input is empty
+2022-03-08 19:22:22,577 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:28:25,607 ERROR Calculator [main] division by zero
+2022-03-08 19:28:25,617 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:28:25,627 ERROR Calculator [main] invalid command - define
+2022-03-08 19:28:25,637 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:28:25,647 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:28:25,655 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:28:25,667 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:28:25,667 ERROR Calculator [main] input is empty
+2022-03-08 19:28:25,677 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:28:43,257 ERROR Calculator [main] division by zero
+2022-03-08 19:28:43,274 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:28:43,277 ERROR Calculator [main] invalid command - define
+2022-03-08 19:28:43,287 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:28:43,297 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:28:43,306 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:28:43,317 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:28:43,317 ERROR Calculator [main] input is empty
+2022-03-08 19:28:43,327 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:32:56,680 ERROR Calculator [main] division by zero
+2022-03-08 19:32:56,696 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:32:56,712 ERROR Calculator [main] invalid command - define
+2022-03-08 19:32:56,712 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:32:56,727 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:32:56,727 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:32:56,743 ERROR Calculator [main] size of stack < 2, operation Plus can't be executed
+2022-03-08 19:32:56,743 ERROR Calculator [main] input is empty
+2022-03-08 19:32:56,758 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:47:56,525 ERROR Calculator [main] division by zero
+2022-03-08 19:47:56,535 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:47:56,545 ERROR Calculator [main] invalid command - define
+2022-03-08 19:47:56,555 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:47:56,565 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:47:56,575 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:47:56,585 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-08 19:47:56,585 ERROR Calculator [main] input is empty
+2022-03-08 19:47:56,595 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:49:47,644 ERROR Calculator [main] division by zero
+2022-03-08 19:49:47,654 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:49:47,658 ERROR Calculator [main] invalid command - define
+2022-03-08 19:49:47,674 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:49:47,677 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:49:47,687 ERROR Calculator [main] Argument for operation "PUSH" is missed
+2022-03-08 19:49:47,697 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-08 19:49:47,697 ERROR Calculator [main] input is empty
+2022-03-08 19:49:47,707 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:50:11,277 ERROR Calculator [main] division by zero
+2022-03-08 19:50:11,289 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:50:11,297 ERROR Calculator [main] invalid command - define
+2022-03-08 19:50:11,307 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:50:11,317 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:50:11,327 ERROR Calculator [main] "PUSH" must have an argument
+2022-03-08 19:50:11,337 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-08 19:50:11,337 ERROR Calculator [main] input is empty
+2022-03-08 19:50:11,347 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-08 19:52:23,202 ERROR Calculator [main] division by zero
+2022-03-08 19:52:23,212 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-08 19:52:23,222 ERROR Calculator [main] invalid command - define
+2022-03-08 19:52:23,232 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-08 19:52:23,242 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-08 19:52:23,252 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-08 19:52:23,262 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-08 19:52:23,262 ERROR Calculator [main] input is empty
+2022-03-08 19:52:23,272 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-19 12:20:46,549 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-19 12:20:46,549 ERROR l.Main [main] variable in operation "DEFINE" must be a number
+2022-03-19 12:21:28,934 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-19 12:21:28,934 ERROR l.Main [main] variable in operation "DEFINE" must be a number
+2022-03-21 18:01:59,475 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-21 18:01:59,490 ERROR l.Main [main] variable in operation "DEFINE" must be a number
+2022-03-28 18:55:03,209 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 18:55:03,209 ERROR l.Main [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:02:10,802 ERROR Calculator [main] invalid command - DIVIDE
+2022-03-28 19:02:10,802 ERROR l.Main [main] invalid command - DIVIDE
+2022-03-28 19:03:29,153 ERROR Calculator [main] invalid command - DIVIDE
+2022-03-28 19:03:29,153 ERROR l.Main [main] invalid command - DIVIDE
+2022-03-28 19:03:42,126 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:03:42,126 ERROR l.Main [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:04:12,746 ERROR l.Main [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:04:38,273 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:04:38,273 ERROR l.Main [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:10:33,957 ERROR Calculator [main] Cannot instantiate class: org.apache.activemq.jndi.ActiveMQInitialContextFactory
+2022-03-28 19:10:33,957 ERROR l.Main [main] Cannot instantiate class: org.apache.activemq.jndi.ActiveMQInitialContextFactory
+2022-03-28 19:10:58,635 ERROR Calculator [main] Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory
+2022-03-28 19:10:58,635 ERROR l.Main [main] Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory
+2022-03-28 19:11:53,616 ERROR Calculator [main] Cannot instantiate class: org.apache.activemq.jndi.ActiveMQInitialContextFactory
+2022-03-28 19:11:53,616 ERROR l.Main [main] Cannot instantiate class: org.apache.activemq.jndi.ActiveMQInitialContextFactory
+2022-03-28 19:12:55,797 ERROR Calculator [main] Cannot instantiate class: org.jboss.ejb.client.naming
+2022-03-28 19:12:55,797 ERROR l.Main [main] Cannot instantiate class: org.jboss.ejb.client.naming
+2022-03-28 19:13:37,341 ERROR Calculator [main] Cannot instantiate class: org.jboss.ejb.client.naming
+2022-03-28 19:13:37,341 ERROR l.Main [main] Cannot instantiate class: org.jboss.ejb.client.naming
+2022-03-28 19:20:57,952 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 19:20:57,952 ERROR l.Main [main] variable in operation "DEFINE" must be a number
+2022-03-28 19:23:22,161 ERROR Calculator [main] division by zero
+2022-03-28 19:23:22,176 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 19:23:22,176 ERROR Calculator [main] invalid command - define
+2022-03-28 19:23:22,192 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 19:23:22,208 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 19:23:22,208 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 19:23:22,223 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 19:23:22,223 ERROR Calculator [main] input is empty
+2022-03-28 19:23:22,239 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-28 19:24:59,078 ERROR Calculator [main] division by zero
+2022-03-28 19:24:59,093 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 19:24:59,093 ERROR Calculator [main] invalid command - define
+2022-03-28 19:24:59,109 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 19:24:59,109 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 19:24:59,125 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 19:24:59,140 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 19:24:59,140 ERROR Calculator [main] input is empty
+2022-03-28 19:24:59,156 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-28 19:28:06,715 ERROR Calculator [main] division by zero
+2022-03-28 19:28:06,731 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 19:28:06,731 ERROR Calculator [main] invalid command - define
+2022-03-28 19:28:06,747 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 19:28:06,762 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 19:28:06,778 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 19:28:06,778 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 19:28:06,778 ERROR Calculator [main] input is empty
+2022-03-28 19:28:25,136 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,151 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,167 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,182 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,182 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,198 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,214 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,229 ERROR Calculator [main] invalid command - define
+2022-03-28 19:28:25,229 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,245 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,245 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,261 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,261 ERROR Calculator [main] input is empty
+2022-03-28 19:28:25,276 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,276 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:25,292 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,443 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,458 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,474 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,489 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,505 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,505 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,521 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,536 ERROR Calculator [main] invalid command - define
+2022-03-28 19:28:55,536 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,552 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,552 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,568 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,568 ERROR Calculator [main] input is empty
+2022-03-28 19:28:55,568 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,583 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:28:55,583 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,122 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,153 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,169 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,169 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,184 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,200 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,200 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,216 ERROR Calculator [main] invalid command - define
+2022-03-28 19:29:34,231 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,231 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,247 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,247 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,247 ERROR Calculator [main] input is empty
+2022-03-28 19:29:34,262 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,262 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:34,262 ERROR Calculator [main] Need to specify class name in environment or system property, or in an application resource file: java.naming.factory.initial
+2022-03-28 19:29:41,947 ERROR Calculator [main] division by zero
+2022-03-28 19:29:41,962 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 19:29:41,962 ERROR Calculator [main] invalid command - define
+2022-03-28 19:29:41,978 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 19:29:41,994 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 19:29:41,994 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 19:29:42,009 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 19:29:42,009 ERROR Calculator [main] input is empty
+2022-03-28 19:29:42,025 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-28 19:34:41,339 ERROR Calculator [main] division by zero
+2022-03-28 19:34:41,354 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 19:34:41,354 ERROR Calculator [main] invalid command - define
+2022-03-28 19:34:41,370 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 19:34:41,385 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 19:34:41,401 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 19:34:41,401 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 19:34:41,401 ERROR Calculator [main] input is empty
+2022-03-28 19:34:41,417 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-28 20:51:02,271 ERROR Calculator [main] division by zero
+2022-03-28 20:51:02,287 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 20:51:02,287 ERROR Calculator [main] invalid command - define
+2022-03-28 20:51:02,302 ERROR Calculator [main] Arg error: variable in operation "DEFINE" must be a number
+2022-03-28 20:51:02,318 ERROR Calculator [main] Arg error: operation "DEFINE" must have 2 arguments
+2022-03-28 20:51:02,318 ERROR Calculator [main] stack is empty, operation "SQRT" can't be executed
+2022-03-28 20:51:02,334 ERROR Calculator [main] Arg error: operation "PUSH" must have an argument
+2022-03-28 20:51:02,334 ERROR Calculator [main] stack is empty, operation "SQRT" can't be executed
+2022-03-28 20:51:02,334 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 20:51:02,334 ERROR Calculator [main] input is empty
+2022-03-28 20:51:02,349 ERROR Calculator [main] Arg error: Definition of "pp" is missed
+2022-03-28 20:52:12,172 ERROR Calculator [main] division by zero
+2022-03-28 20:52:12,188 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 20:52:12,188 ERROR Calculator [main] invalid command - define
+2022-03-28 20:52:12,203 ERROR Calculator [main] Arg error: variable in operation "DEFINE" must be a number
+2022-03-28 20:52:12,219 ERROR Calculator [main] Arg error: operation "DEFINE" must have 2 arguments
+2022-03-28 20:52:12,219 ERROR Calculator [main] stack is empty, operation "SQRT" can't be executed
+2022-03-28 20:52:12,235 ERROR Calculator [main] Arg error: operation "PUSH" must have an argument
+2022-03-28 20:52:12,235 ERROR Calculator [main] stack is empty, operation "SQRT" can't be executed
+2022-03-28 20:52:12,235 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 20:52:12,235 ERROR Calculator [main] input is empty
+2022-03-28 20:52:12,250 ERROR Calculator [main] Arg error: Definition of "pp" is missed
+2022-03-28 20:52:50,686 ERROR Calculator [main] division by zero
+2022-03-28 20:52:50,702 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 20:52:50,702 ERROR Calculator [main] invalid command - define
+2022-03-28 20:52:50,717 ERROR Calculator [main] Arg error: variable in operation "DEFINE" must be a number
+2022-03-28 20:52:50,733 ERROR Calculator [main] Arg error: operation "DEFINE" must have 2 arguments
+2022-03-28 20:52:50,749 ERROR Calculator [main] Arg error: operation "PUSH" must have an argument
+2022-03-28 20:52:50,749 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 20:52:50,749 ERROR Calculator [main] input is empty
+2022-03-28 20:52:50,764 ERROR Calculator [main] Arg error: Definition of "pp" is missed
+2022-03-28 20:53:26,230 ERROR Calculator [main] division by zero
+2022-03-28 20:53:26,245 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 20:53:26,261 ERROR Calculator [main] invalid command - define
+2022-03-28 20:53:26,261 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 20:53:26,277 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 20:53:26,292 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 20:53:26,292 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 20:53:26,292 ERROR Calculator [main] input is empty
+2022-03-28 20:53:26,308 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-28 20:59:15,652 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 20:59:15,652 ERROR l.Main [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 20:59:46,907 ERROR Calculator [main] Definition of "5" is missed
+2022-03-28 20:59:46,907 ERROR l.Main [main] Definition of "5" is missed
+2022-03-28 21:19:16,589 ERROR l.Main [main] Cannot invoke "java.lang.Double.doubleValue()" because the return value of "java.util.TreeMap.get(Object)" is null
+2022-03-28 21:41:01,456 ERROR Calculator [main] division by zero
+2022-03-28 21:41:01,456 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 21:41:01,472 ERROR Calculator [main] invalid command - define
+2022-03-28 21:41:01,487 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 21:41:01,487 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 21:41:01,503 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 21:41:01,518 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 21:41:01,518 ERROR Calculator [main] input is empty
+2022-03-28 21:41:01,534 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-28 21:42:30,992 ERROR Calculator [main] division by zero
+2022-03-28 21:42:31,007 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 21:42:31,007 ERROR Calculator [main] invalid command - define
+2022-03-28 21:42:31,023 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 21:42:31,038 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 21:42:31,054 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 21:42:31,054 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 21:42:31,054 ERROR Calculator [main] input is empty
+2022-03-28 21:42:31,070 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-28 21:43:04,408 ERROR Calculator [main] division by zero
+2022-03-28 21:43:04,424 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-28 21:43:04,424 ERROR Calculator [main] invalid command - define
+2022-03-28 21:43:04,439 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-28 21:43:04,455 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-28 21:43:04,455 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-28 21:43:04,470 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-28 21:43:04,470 ERROR Calculator [main] input is empty
+2022-03-28 21:43:04,486 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-30 11:54:58,237 ERROR Calculator [main] division by zero
+2022-03-30 11:54:58,249 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-30 11:54:58,256 ERROR Calculator [main] invalid command - define
+2022-03-30 11:54:58,268 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-30 11:54:58,279 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-30 11:54:58,291 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-30 11:54:58,304 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-30 11:54:58,306 ERROR Calculator [main] input is empty
+2022-03-30 11:54:58,318 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-30 11:55:15,114 ERROR Calculator [main] division by zero
+2022-03-30 11:55:15,126 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-30 11:55:15,135 ERROR Calculator [main] invalid command - define
+2022-03-30 11:55:15,147 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-30 11:55:15,157 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-30 11:55:15,167 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-30 11:55:15,178 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-30 11:55:15,180 ERROR Calculator [main] input is empty
+2022-03-30 11:55:15,190 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-30 11:57:54,553 ERROR Calculator [main] division by zero
+2022-03-30 11:57:54,565 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-30 11:57:54,574 ERROR Calculator [main] invalid command - define
+2022-03-30 11:57:54,587 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-30 11:57:54,601 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-30 11:57:54,614 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-30 11:57:54,627 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-30 11:57:54,629 ERROR Calculator [main] input is empty
+2022-03-30 11:57:54,642 ERROR Calculator [main] Definition of "pp" is missed
+2022-03-30 11:57:59,975 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-30 11:57:59,975 ERROR l.Main [main] variable in operation "DEFINE" must be a number
+2022-03-30 11:58:09,034 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-30 11:58:09,034 ERROR l.Main [main] variable in operation "DEFINE" must be a number
+2022-03-30 11:58:20,697 ERROR Calculator [main] Definition of "N" is missed
+2022-03-30 11:58:20,698 ERROR l.Main [main] Definition of "N" is missed
+2022-03-30 12:11:41,717 ERROR Calculator [main] division by zero
+2022-03-30 12:11:41,729 ERROR Calculator [main] size of stack < 2, operation "*" can't be executed
+2022-03-30 12:11:41,736 ERROR Calculator [main] invalid command - define
+2022-03-30 12:11:41,749 ERROR Calculator [main] variable in operation "DEFINE" must be a number
+2022-03-30 12:11:41,760 ERROR Calculator [main] operation "DEFINE" must have 2 arguments
+2022-03-30 12:11:41,770 ERROR Calculator [main] operation "PUSH" must have an argument
+2022-03-30 12:11:41,780 ERROR Calculator [main] size of stack < 2, operation "+" can't be executed
+2022-03-30 12:11:41,781 ERROR Calculator [main] input is empty
+2022-03-30 12:11:41,792 ERROR Calculator [main] Definition of "pp" is missed
