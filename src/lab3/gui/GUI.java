@@ -53,10 +53,6 @@ public class GUI {
         return timerPanel;
     }
 
-    void showAboutFrame() {
-        aboutFrame.setVisible(true);
-    }
-
     public void showRankingFrame(TreeMap<String, Double> rankingData) {
         rankingFrame.setData(rankingData);
         rankingFrame.setVisible(true);

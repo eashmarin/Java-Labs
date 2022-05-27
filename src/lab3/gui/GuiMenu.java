@@ -56,6 +56,5 @@ public class GuiMenu extends JMenuBar {
         expert.addActionListener(listener);
         about.addActionListener(listener);
         exit.addActionListener(listener);
-        //menu.addMenuListener(listener);
     }
 }

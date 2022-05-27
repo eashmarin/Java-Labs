@@ -10,13 +10,13 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class GraphicalController implements Controller {        // TODO: rename to GuiController
+public class GraphicalController implements Controller {
 
-    private Model model;
-    private GraphicalView view;
-    private ButtonListener buttonListener;
-    private MyMouseListener mouseListener;
-    private GUIMenuListener menuListener;
+    private final Model model;
+    private final GraphicalView view;
+    private final ButtonListener buttonListener;
+    private final MyMouseListener mouseListener;
+    private final GUIMenuListener menuListener;
     private boolean isRightButton;
 
     public GraphicalController(Model model, GraphicalView view) {

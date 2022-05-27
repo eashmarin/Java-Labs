@@ -8,10 +8,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class GuiRankingFrame extends JFrame {
-    private JTable table;
-    private JScrollPane scrollPane;
-    private DefaultTableCellRenderer renderer;
-    private DefaultTableModel model;
+    private final JTable table;
 
     GuiRankingFrame() {
 
@@ -24,10 +21,10 @@ public class GuiRankingFrame extends JFrame {
         table.setPreferredScrollableViewportSize(new Dimension(100, 34));
         table.setFillsViewportHeight(true);
         table.setRowHeight(20);
-        scrollPane = new JScrollPane(table);
+        JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.setViewportView(table);
 
-        renderer = new DefaultTableCellRenderer();
+        DefaultTableCellRenderer renderer = new DefaultTableCellRenderer();
         renderer.setHorizontalAlignment(SwingConstants.CENTER);
 
         table.setDefaultRenderer(Object.class, renderer);
@@ -41,7 +38,7 @@ public class GuiRankingFrame extends JFrame {
     }
 
     public void setData(TreeMap<String, Double> rankingData) {
-        model = new DefaultTableModel(new Object[] {"Player", "Time"}, 0);
+        DefaultTableModel model = new DefaultTableModel(new Object[]{"Player", "Time"}, 0);
         for (Map.Entry<String, Double> entry: rankingData.entrySet()) {
             model.addRow(new Object[]{entry.getKey(), entry.getValue()});
         }

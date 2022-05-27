@@ -5,7 +5,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class GuiPlayingArea extends JPanel {
-    private ArrayList<JButton> buttons;
+    private final ArrayList<JButton> buttons;
 
     GuiPlayingArea(int height, int width) {
         int hgap = 1;

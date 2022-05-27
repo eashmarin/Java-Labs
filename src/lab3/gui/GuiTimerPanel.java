@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class GuiTimerPanel extends JPanel {
-    private JLabel label;
+    private final JLabel label;
     public GuiTimerPanel() {
 
         label = new JLabel("0");

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Reader {
     public static ArrayList<String> read(String fileName) {
-        ArrayList<String> lines = new ArrayList<String>();
+        ArrayList<String> lines = new ArrayList<>();
 
         BufferedReader reader = null;
         try {

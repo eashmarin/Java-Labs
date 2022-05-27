@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class ConsoleController implements Controller {
 
-    private Model model;
-    private View view;
+    private final Model model;
+    private final View view;
 
     public ConsoleController(Model model, View view) {
         this.model = model;

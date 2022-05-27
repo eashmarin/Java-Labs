@@ -15,25 +15,23 @@ import java.util.TreeMap;
 public class GraphicalView implements View {
     private int height;
     private int width;
-    private Model model;
-    private CustomTimer timer;
-    private Thread threadTimer;
-    private GUI gui;
+    private final Model model;
+    private final CustomTimer timer;
+    private final GUI gui;
     private ArrayList<JButton> buttons;
-    private ImageIcon buttonIcon;
-    private ImageIcon revealedIcon;
-    private ImageIcon oneIcon;
-    private ImageIcon twoIcon;
-    private ImageIcon threeIcon;
-    private ImageIcon fourIcon;
-    private ImageIcon fiveIcon;
-    private ImageIcon sixIcon;
-    private ImageIcon sevenIcon;
-    private ImageIcon eightIcon;
-    private ImageIcon flagIcon;
-    private ImageIcon mineIcon;
-    //private ImageIcon mineExplodedIcon;
-    private HashMap<Character, ImageIcon> iconMap;
+    private final ImageIcon buttonIcon;
+    private final ImageIcon revealedIcon;
+    private final ImageIcon oneIcon;
+    private final ImageIcon twoIcon;
+    private final ImageIcon threeIcon;
+    private final ImageIcon fourIcon;
+    private final ImageIcon fiveIcon;
+    private final ImageIcon sixIcon;
+    private final ImageIcon sevenIcon;
+    private final ImageIcon eightIcon;
+    private final ImageIcon flagIcon;
+    private final ImageIcon mineIcon;
+    private final HashMap<Character, ImageIcon> iconMap;
 
     public GraphicalView(Model model) {
         this.height = model.getHeight();
@@ -42,7 +40,7 @@ public class GraphicalView implements View {
 
         timer = new CustomTimer(model, this);
 
-        threadTimer = new Thread(timer);
+        Thread threadTimer = new Thread(timer);
         threadTimer.start();
 
         gui = new GUI(height, width);
@@ -135,7 +133,7 @@ public class GraphicalView implements View {
 
     @Override
     public void showLoseDialog() {
-        JOptionPane.showMessageDialog(null, "Defeat. The Game is over.", "Defeat", JOptionPane.INFORMATION_MESSAGE); //TODO: change parameters (set title)
+        JOptionPane.showMessageDialog(null, "Defeat. The Game is over.", "Defeat", JOptionPane.INFORMATION_MESSAGE);
     }
 
     @Override

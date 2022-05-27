@@ -17,10 +17,10 @@ public class ConsoleView implements View {
     private static final String ANSI_PURPLE = "\u001B[35m";
     private static final String ANSI_BLACK_BRIGHT = "\033[0;90m";
 
-    private int height;
-    private int width;
-    private CustomTimer timer;
-    private Model model;
+    private final int height;
+    private final int width;
+    private final CustomTimer timer;
+    private final Model model;
 
     public ConsoleView(Model model) {
         this.height = model.getHeight();

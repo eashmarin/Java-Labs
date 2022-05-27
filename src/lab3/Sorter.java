@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class Sorter {
     public static TreeMap<String, Double> sortData(TreeMap<String, Double> data) {
-        Comparator<String> valueComparator = new Comparator<String>() {
+        Comparator<String> valueComparator = new Comparator<>() {
             public int compare(String a, String b) {
                 int comp = data.get(a).compareTo(data.get(b));
                 if (comp == 0)

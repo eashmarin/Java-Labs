@@ -12,11 +12,10 @@ public class Model {
     private boolean gameOver;
     private boolean isWin;
     private String playerName;
-    private TreeMap<String, Double> rankingData;
+    private final TreeMap<String, Double> rankingData;
     private int revealedCount;
     private double time;
     private long startTime;
-    private long estimatedTime;
     private int height;
     private int width;
     private int minesNum;
@@ -105,7 +104,6 @@ public class Model {
 
             if (!isGenerated) {
                 generate(x, y);
-                print();  //TODO: DEBUG
             }
 
             revealedMap[y][x] = true;
@@ -141,7 +139,8 @@ public class Model {
 
     void fixRecord() {
         isWin = true;
-        estimatedTime = System.nanoTime() - startTime;
+
+        long estimatedTime = System.nanoTime() - startTime;
         estimatedTime *= 1e-9;
 
         if (!rankingData.containsKey(playerName)) {
